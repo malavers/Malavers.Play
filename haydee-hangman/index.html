@@ -2,141 +2,171 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#6a0dad">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f7f5f2" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#15171c" media="(prefers-color-scheme: dark)">
+    <meta name="color-scheme" content="light dark">
     <title>Haydee Hangman</title>
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/png" sizes="96x96" href="resources/icons/icon-96x96.png">
     <link rel="apple-touch-icon" href="resources/icons/apple-touch-icon.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Hangman">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-gear" viewBox="0 0 24 24"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+        <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4ZM7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.5s-7.5-4.4-9.3-9.3C1.4 7.6 3.7 4 7.3 4c2 0 3.6 1.1 4.7 2.7C13.1 5.1 14.7 4 16.7 4c3.6 0 5.9 3.6 4.6 7.2-1.8 4.9-9.3 9.3-9.3 9.3Z"/></symbol>
+        <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+        <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 9v4l2.5 2.5M9 2h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    </svg>
 
-    <div class="app-container">
-        <!-- Toast Notification -->
-        <div id="app-toast"></div>
-
-        <!-- Navigation -->
-        <nav class="app-nav">
-            <button id="nav-main-menu-btn" class="nav-btn active">Main Menu</button>
-            <button id="nav-settings-btn" class="nav-btn">Settings</button>
-            <button id="nav-stats-btn" class="nav-btn">Stats</button>
-            <button id="nav-leaderboard-btn" class="nav-btn">Leaderboard</button>
+    <!-- Home -->
+    <main id="screen-home" class="screen screen-home">
+        <div class="home-picture"><img id="home-picture" src="resources/images/butterfly/6.png" alt=""></div>
+        <h1>Haydee Hangman</h1>
+        <p class="tagline">Find the word before the picture is finished.</p>
+        <button class="btn btn-primary btn-big" data-action="play">Play</button>
+        <button class="summary" data-go="settings" aria-label="Change game options">
+            <span id="home-summary"></span>
+            <span class="summary-edit">Change</span>
+        </button>
+        <p class="home-streak" id="home-streak"></p>
+        <nav class="home-links" aria-label="More">
+            <button class="btn btn-quiet" data-go="scores"><svg class="icon"><use href="#i-trophy"/></svg>Scores</button>
+            <button class="btn btn-quiet" data-go="settings"><svg class="icon"><use href="#i-gear"/></svg>Settings</button>
         </nav>
+        <a class="home-more" href="../">More games</a>
+    </main>
 
-        <!-- Main Menu Section -->
-        <section id="main-menu-section" class="app-section active-section">
-            <h1>Hangman</h1>
-            <button id="start-game-btn">Start Game</button>
-            <button id="settings-btn">Settings</button>
-            <button id="stats-btn">Stats</button>
-            <button id="leaderboard-btn">Leaderboard</button>
-        </section>
-
-        <!-- Gameplay Section -->
-        <section id="gameplay-section" class="app-section">
-            <div class="game-info">
-                <span id="game-info-score">Score: 0</span>
-                <span id="game-info-mistakes">Mistakes: 0/6</span>
-                <span id="timer-display"></span>
-            </div>
-            <div id="category-display">Category: Unknown</div>
-            <img id="hangman-image" src="resources/images/butterfly/0.png" alt="Hangman Image">
-            <div id="guessed-word-display"></div>
-            <button id="hint-btn">Hint</button>
-            <div id="keyboard"></div>
-        </section>
-
-        <!-- Settings Section -->
-        <section id="settings-section" class="app-section">
-            <h2>Settings</h2>
-            <label for="player-initials">Player Initials:</label>
-            <input id="player-initials" type="text" maxlength="3">
-            <label for="theme-selector">Theme:</label>
-            <div id="theme-name-display"></div>
-            <div id="theme-selector" class="theme-selector"></div>
-            <label for="image-set">Image Set:</label>
-            <select id="image-set">
-                <option value="butterfly">Butterfly</option>
-                <option value="robot">Robot</option>
-                <option value="tree">Tree</option>
-            </select>
-            <label for="sound-pack">Sound Pack:</label>
-            <select id="sound-pack">
-                <option value="classic">Classic</option>
-                <option value="modern">Modern</option>
-                <option value="retro">Retro</option>
-            </select>
-            <label for="volume">Volume:</label>
-            <select id="volume">
-                <option value="0">Off</option>
-                <option value="1">Low</option>
-                <option value="2">Medium</option>
-                <option value="3">High</option>
-            </select>
-            <label for="difficulty">Difficulty:</label>
-            <select id="difficulty">
-                <option value="1">Easy</option>
-                <option value="2">Medium-Easy</option>
-                <option value="3">Normal</option>
-                <option value="4">Medium-Hard</option>
-                <option value="5">Hard</option>
-            </select>
-            <label for="game-mode">Game Mode:</label>
-            <select id="game-mode">
-                <option value="casual">Casual</option>
-                <option value="timed">Timed</option>
-                <option value="rush">Rush</option>
-            </select>
-            <label>Categories:</label>
-            <div id="category-list"></div>
-
-        </section>
-
-        <!-- Stats Section -->
-        <section id="stats-section" class="app-section">
-            <h2>Stats</h2>
-            <div id="stats-grid"></div>
-            <h3>Achievements</h3>
-            <ul id="stats-achievements-list"></ul>
-            <button id="reset-stats-btn">Reset Stats</button>
-        </section>
-
-        <!-- Leaderboard Section -->
-        <section id="leaderboard-section" class="app-section">
-            <h2>Leaderboard</h2>
-            <select id="leaderboard-filter">
-                <option value="all">All</option>
-                <option value="casual">Casual</option>
-                <option value="timed">Timed</option>
-                <option value="rush">Rush</option>
-            </select>
-            <ul id="leaderboard-list"></ul>
-        </section>
-
-        <!-- Modal Overlay -->
-        <div id="modal-overlay">
-            <div class="modal-content">
-                <h2 id="modal-title"></h2>
-                <p id="modal-message"></p>
-                <p id="modal-details"></p>
-                <button id="modal-play-again-btn">Play Again</button>
-                <button id="modal-settings-btn">Settings</button>
-                <button id="modal-quit-btn">Quit</button>
-            </div>
+    <!-- Play -->
+    <main id="screen-play" class="screen screen-play" hidden>
+        <header class="topbar">
+            <button class="icon-btn" data-go="home" aria-label="Back to home"><svg class="icon"><use href="#i-back"/></svg></button>
+            <span class="pill" id="game-category"></span>
+            <span class="topbar-right">
+                <span class="pill pill-timer" id="game-timer" hidden><svg class="icon"><use href="#i-clock"/></svg><span></span></span>
+                <span class="pill pill-score" id="game-score" aria-label="Score">0</span>
+            </span>
+        </header>
+        <div class="lives" id="game-lives" role="img"></div>
+        <div class="stage"><img id="game-picture" alt=""></div>
+        <div class="word" id="game-word" role="img"></div>
+        <div class="clue">
+            <button class="btn btn-clue" id="hint-btn"><svg class="icon"><use href="#i-bulb"/></svg>Show clue <span class="muted" id="hint-cost"></span></button>
+            <p class="clue-text" id="hint-text" hidden></p>
         </div>
+        <div class="keyboard" id="keyboard" aria-label="Letters"></div>
+    </main>
 
-        <!-- Achievement Modal -->
-        <div id="achievement-modal">
-            <div class="modal-content">
-                <h2 id="achievement-modal-title"></h2>
-                <p id="achievement-modal-message"></p>
-                <button id="achievement-modal-close-btn">Close</button>
+    <!-- Settings -->
+    <main id="screen-settings" class="screen screen-page" hidden>
+        <header class="topbar">
+            <button class="icon-btn" data-go="home" aria-label="Back to home"><svg class="icon"><use href="#i-back"/></svg></button>
+            <h2>Settings</h2>
+            <span class="topbar-spacer"></span>
+        </header>
+        <form class="panel" id="settings-form" onsubmit="return false">
+            <section class="card">
+                <h3>Words</h3>
+                <fieldset class="field">
+                    <legend>Categories</legend>
+                    <div class="chips" id="set-categories"></div>
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Difficulty</legend>
+                    <div class="segmented" id="set-difficulty"></div>
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Mode</legend>
+                    <div class="segmented" id="set-mode"></div>
+                    <p class="note" id="mode-note"></p>
+                </fieldset>
+            </section>
+            <section class="card">
+                <h3>Look</h3>
+                <fieldset class="field">
+                    <legend>Colour</legend>
+                    <div class="swatches" id="set-accent"></div>
+                    <p class="note">Light or dark follows your phone's setting.</p>
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Picture</legend>
+                    <div class="pictures" id="set-pictures"></div>
+                </fieldset>
+            </section>
+            <section class="card">
+                <h3>Sound</h3>
+                <fieldset class="field">
+                    <legend>Volume</legend>
+                    <div class="segmented" id="set-volume"></div>
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Sound pack</legend>
+                    <div class="segmented" id="set-sound"></div>
+                </fieldset>
+            </section>
+            <section class="card">
+                <h3>Player</h3>
+                <label class="field" for="set-initials">
+                    <span class="legend">Initials for the leaderboard</span>
+                    <input id="set-initials" name="initials" type="text" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false" maxlength="3" placeholder="ABC">
+                </label>
+            </section>
+        </form>
+        <div class="page-footer">
+            <button class="btn btn-primary btn-big" data-action="play">Play</button>
+        </div>
+    </main>
+
+    <!-- Scores -->
+    <main id="screen-scores" class="screen screen-page" hidden>
+        <header class="topbar">
+            <button class="icon-btn" data-go="home" aria-label="Back to home"><svg class="icon"><use href="#i-back"/></svg></button>
+            <h2>Scores</h2>
+            <span class="topbar-spacer"></span>
+        </header>
+        <div class="panel">
+            <section class="card">
+                <h3>Your stats</h3>
+                <dl class="stats" id="stats"></dl>
+            </section>
+            <section class="card">
+                <h3>Top scores on this device</h3>
+                <div class="segmented segmented-small" id="board-filter"></div>
+                <ol class="board" id="board"></ol>
+            </section>
+            <section class="card">
+                <h3>Awards <span class="muted" id="awards-count"></span></h3>
+                <ul class="awards" id="awards"></ul>
+            </section>
+            <button class="btn btn-danger" id="reset-btn">Reset scores and awards</button>
+        </div>
+    </main>
+
+    <!-- Result -->
+    <div class="sheet-backdrop" id="result" hidden>
+        <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="result-title">
+            <h2 id="result-title"></h2>
+            <p class="result-word" id="result-word"></p>
+            <p class="result-hint" id="result-hint"></p>
+            <dl class="breakdown" id="result-breakdown"></dl>
+            <p class="result-total">Score <strong id="result-score">0</strong></p>
+            <p class="result-streak" id="result-streak"></p>
+            <ul class="awards-new" id="result-awards" aria-label="New awards"></ul>
+            <div class="sheet-actions">
+                <button class="btn btn-primary btn-big" id="next-btn">Next word</button>
+                <button class="btn btn-quiet" data-go="home">Home</button>
             </div>
         </div>
     </div>
-    <script type="module" src="js/index.js"></script>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="js/ui.js"></script>
 </body>
 </html>

@@ -1,15 +1,14 @@
-// =========================================================
-// gameData.js
-// Version: 1.2025.0714.2200.MAL
-// =========================================================
-import { APP_CONSTANTS, IMAGE_THEMES } from './config.js';
-import * as UI from './ui.js';
+// gameData.js: saved settings and game history. Stats and achievements are
+// derived from the history, so they can never drift out of step with it.
 
-// ---------------------------------------------------------
-// private
-// ---------------------------------------------------------
+import { ACHIEVEMENTS, CATEGORIES, DEFAULT_SETTINGS, SPEED_RUN_SECONDS, ACCENTS, PICTURE_SETS, SOUND_PACKS, DIFFICULTIES, MODES } from './config.js';
 
-const localStorage = (() => {
+const KEYS = { settings: 'hangman_settings', history: 'hangman_game_history' };
+const OLD_KEYS = ['hangman_achievements', 'hangman_player_id'];
+const HISTORY_LIMIT = 500;
+
+// localStorage can throw (private browsing, blocked storage); fall back to memory.
+const store = (() => {
     try {
         const probe = '__hangman_probe__';
         window.localStorage.setItem(probe, probe);
@@ -25,227 +24,131 @@ const localStorage = (() => {
     }
 })();
 
-const STORAGE_KEYS = {
-    SETTINGS: 'hangman_settings',
-    GAME_HISTORY: 'hangman_game_history',
-    ACHIEVEMENTS: 'hangman_achievements',
-    PLAYER_ID: 'hangman_player_id',
-};
-
-const defaultSettings = {
-    playerInitials: 'AAA',
-    theme: APP_CONSTANTS.THEME_DEFAULT_ID,
-    imageSet: APP_CONSTANTS.IMAGE_SET_DEFAULT,
-    soundPack: APP_CONSTANTS.SOUND_PACK_DEFAULT,
-    volume: 2,
-    difficulty: APP_CONSTANTS.DIFFICULTY_DEFAULT,
-    categories: APP_CONSTANTS.CATEGORIES_DEFAULT,
-    gameMode: APP_CONSTANTS.GAME_MODE_DEFAULT,
-};
-
-// Generate or retrieve a unique player ID
-function getPlayerId() {
-    let playerId = localStorage.getItem(STORAGE_KEYS.PLAYER_ID);
-    if (!playerId) {
-        playerId = 'player_' + Math.random().toString(36).substr(2, 9);
-        localStorage.setItem(STORAGE_KEYS.PLAYER_ID, playerId);
+function read(key, fallback) {
+    try {
+        const raw = store.getItem(key);
+        return raw ? JSON.parse(raw) : fallback;
+    } catch {
+        return fallback;
     }
-    return playerId;
 }
 
-// ---------------------------------------------------------
-// export
-// ---------------------------------------------------------
+function write(key, value) {
+    try {
+        store.setItem(key, JSON.stringify(value));
+    } catch {
+        // Storage full or blocked: the game still plays, it just won't remember.
+    }
+}
+
+const pick = (list, id, fallback) => (list.some(item => item.id === id) ? id : fallback);
+
+// Version 1 saves used numeric ids (difficulty 1-5, category 1-8, theme 1-24).
+const OLD_DIFFICULTY = { 1: 'easy', 2: 'easy', 3: 'normal', 4: 'hard', 5: 'hard' };
+const oldCategory = id => CATEGORIES[Number(id) - 1]?.id;
+
+function normaliseSettings(raw = {}) {
+    let categories = raw.categories;
+    if (!Array.isArray(categories) || categories.includes('all')) categories = [];
+    categories = categories.map(id => (/^\d+$/.test(String(id)) ? oldCategory(id) : id)).filter(id => CATEGORIES.some(c => c.id === id));
+    if (categories.length === CATEGORIES.length) categories = [];
+
+    const initials = String(raw.initials ?? raw.playerInitials ?? '').toUpperCase().replace(/[^A-Z]/g, '').slice(0, 3);
+    return {
+        initials: initials === 'AAA' ? '' : initials,
+        accent: pick(ACCENTS, raw.accent, DEFAULT_SETTINGS.accent),
+        pictures: pick(PICTURE_SETS, raw.pictures ?? raw.imageSet, DEFAULT_SETTINGS.pictures),
+        soundPack: pick(SOUND_PACKS, raw.soundPack, DEFAULT_SETTINGS.soundPack),
+        volume: [0, 1, 2, 3].includes(Number(raw.volume)) ? Number(raw.volume) : DEFAULT_SETTINGS.volume,
+        difficulty: pick(DIFFICULTIES, OLD_DIFFICULTY[raw.difficulty] ?? raw.difficulty, DEFAULT_SETTINGS.difficulty),
+        mode: pick(MODES, (raw.mode ?? raw.gameMode) === 'rush' ? 'timed' : raw.mode ?? raw.gameMode, DEFAULT_SETTINGS.mode),
+        categories,
+    };
+}
+
+function normaliseEntry(e) {
+    return {
+        initials: String(e.initials ?? e.playerInitials ?? '').slice(0, 3),
+        score: Number(e.score) || 0,
+        outcome: e.outcome === 'win' ? 'win' : 'lose',
+        at: e.at ?? e.timestamp,
+        word: e.word,
+        category: CATEGORIES.some(c => c.id === e.category) ? e.category : oldCategory(e.categoryId),
+        difficulty: OLD_DIFFICULTY[e.difficulty] ?? e.difficulty ?? 'normal',
+        mode: (e.mode ?? e.gameMode ?? 'casual') === 'casual' ? 'casual' : 'timed', // old 'rush' counts as timed
+        seconds: Number(e.seconds ?? e.gameDuration) || 0,
+        mistakes: Number(e.mistakes ?? e.incorrectGuesses) || 0,
+        usedHint: e.usedHint ?? true, // version 1 never recorded it
+    };
+}
 
 export function getSettings() {
-    const storedSettings = localStorage.getItem(STORAGE_KEYS.SETTINGS);
-    let settings;
-    try {
-        settings = storedSettings ? JSON.parse(storedSettings) : defaultSettings;
-    } catch (error) {
-        console.warn('Invalid settings in localStorage, falling back to defaults:', error);
-        settings = defaultSettings;
-    }
+    return normaliseSettings(read(KEYS.settings, {}));
+}
 
-    settings.playerInitials = (settings.playerInitials || defaultSettings.playerInitials).toUpperCase().slice(0, 3);
-    settings.theme = Number.isInteger(Number(settings.theme)) ? Number(settings.theme) : defaultSettings.theme;
-    settings.imageSet = settings.imageSet && IMAGE_THEMES.some(theme => theme.name === settings.imageSet) ? settings.imageSet : defaultSettings.imageSet;
-    settings.soundPack = settings.soundPack || defaultSettings.soundPack;
-    settings.volume = Math.min(Math.max(Number(settings.volume) || defaultSettings.volume, 0), 3);
-    settings.difficulty = Math.min(Math.max(Number(settings.difficulty) || defaultSettings.difficulty, 1), 5);
-    if (!Array.isArray(settings.categories) || settings.categories.length === 0) {
-        console.warn('Invalid or empty categories detected, using default:', settings.categories);
-        settings.categories = defaultSettings.categories;
-    }
-    settings.gameMode = settings.gameMode || defaultSettings.gameMode;
-
+export function updateSettings(changes) {
+    const settings = normaliseSettings({ ...getSettings(), ...changes });
+    write(KEYS.settings, settings);
     return settings;
 }
 
-export function saveSettings(settings) {
-    const currentSettings = getSettings();
-    const validatedSettings = {
-        playerInitials: (settings.playerInitials || currentSettings.playerInitials).toUpperCase().slice(0, 3),
-        theme: Number.isInteger(Number(settings.theme)) ? Number(settings.theme) : currentSettings.theme,
-        imageSet: settings.imageSet || currentSettings.imageSet,
-        soundPack: settings.soundPack || currentSettings.soundPack,
-        volume: Math.min(Math.max(Number(settings.volume) || currentSettings.volume, 0), 3),
-        difficulty: Math.min(Math.max(Number(settings.difficulty) || currentSettings.difficulty, 1), 5),
-        categories: Array.isArray(settings.categories) && settings.categories.length > 0 ? settings.categories : currentSettings.categories,
-        gameMode: settings.gameMode || currentSettings.gameMode,
-    };
-    localStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify(validatedSettings));
+export function getHistory() {
+    const history = read(KEYS.history, []);
+    return Array.isArray(history) ? history.map(normaliseEntry) : [];
 }
 
-export function getLeaderboard(mode = 'all') {
-    const history = JSON.parse(localStorage.getItem(STORAGE_KEYS.GAME_HISTORY) || '[]');
-    const validModes = ['all', 'casual', 'timed', 'rush'];
-    if (!validModes.includes(mode)) {
-        console.warn(`Invalid mode "${mode}", falling back to "all".`);
-        mode = 'all';
-    }
-    const filteredHistory = mode === 'all' ? history : history.filter(entry => entry.gameMode === mode);
-    return filteredHistory
-        .filter(entry => entry.score > 0)
-        .sort((a, b) => b.score - a.score || new Date(b.timestamp) - new Date(a.timestamp))
-        .slice(0, 10)
-        .map(entry => ({
-            initials: entry.playerInitials,
-            score: entry.score,
-            gameMode: entry.gameMode,
-            timestamp: entry.timestamp,
-        }));
-}
-
-export function getPlayerStats() {
-    const history = JSON.parse(localStorage.getItem(STORAGE_KEYS.GAME_HISTORY) || '[]');
-    const settings = getSettings();
-    const playerId = getPlayerId();
-
+export function getStats(history = getHistory()) {
     const stats = {
-        gamesPlayed: 0,
-        gamesWon: 0,
-        totalScore: 0,
-        winStreak: 0,
-        maxWinStreak: 0,
-        perfectGames: 0,
-        noHintWins: 0,
-        speedRuns: 0,
+        played: history.length, wins: 0, streak: 0, bestStreak: 0, bestScore: 0,
+        perfectWins: 0, noHintWins: 0, speedyWins: 0, hardWins: 0, categoriesWon: 0,
     };
-
-    let currentWinStreak = 0;
-    history
-        .filter(entry => entry.playerId === playerId)
-        .forEach(entry => {
-            stats.gamesPlayed++;
-            if (entry.outcome === 'win') {
-                stats.gamesWon++;
-                currentWinStreak++;
-                stats.winStreak = currentWinStreak;
-                stats.maxWinStreak = Math.max(stats.maxWinStreak, currentWinStreak);
-                if (entry.perfectGame) stats.perfectGames++;
-                if (!entry.settings.hasUsedHint) stats.noHintWins++;
-                if (entry.gameDuration <= APP_CONSTANTS.SPEED_RUN_THRESHOLD_SECONDS) stats.speedRuns++;
-            } else {
-                currentWinStreak = 0;
-            }
-            stats.totalScore += entry.score;
-        });
-
+    const categories = new Set();
+    for (const game of history) {
+        if (game.outcome !== 'win') {
+            stats.streak = 0;
+            continue;
+        }
+        stats.wins++;
+        stats.streak++;
+        stats.bestStreak = Math.max(stats.bestStreak, stats.streak);
+        stats.bestScore = Math.max(stats.bestScore, game.score);
+        if (game.mistakes === 0) stats.perfectWins++;
+        if (!game.usedHint) stats.noHintWins++;
+        if (game.seconds > 0 && game.seconds < SPEED_RUN_SECONDS) stats.speedyWins++;
+        if (game.difficulty === 'hard') stats.hardWins++;
+        if (game.category) categories.add(game.category);
+    }
+    stats.categoriesWon = categories.size;
+    stats.winRate = stats.played ? Math.round((stats.wins / stats.played) * 100) : 0;
     return stats;
 }
 
-export function getAchievements() {
-    let storedAchievements;
-    try {
-        const rawData = localStorage.getItem(STORAGE_KEYS.ACHIEVEMENTS);
-        storedAchievements = rawData ? JSON.parse(rawData) : [];
-        if (!Array.isArray(storedAchievements)) {
-            console.warn('Stored achievements is not an array, resetting to empty array.');
-            storedAchievements = [];
-        }
-    } catch (error) {
-        console.error('Failed to parse stored achievements:', error);
-        storedAchievements = [];
-    }
-
-    const defaultAchievements = [
-        { id: 'first_win', name: 'First Win', progress: 0, target: 1, unlocked: false },
-        { id: 'win_5_games', name: 'Win 5 Games', progress: 0, target: 5, unlocked: false },
-        { id: 'perfect_game', name: 'Perfect Game', progress: 0, target: 1, unlocked: false },
-        { id: 'no_hint_win', name: 'No-Hint Win', progress: 0, target: 1, unlocked: false },
-        { id: 'speed_run', name: 'Speed Run', progress: 0, target: 1, unlocked: false },
-        { id: 'high_score_500', name: 'Score 500+', progress: 0, target: 1, unlocked: false },
-        { id: 'win_streak_3', name: 'Win Streak of 3', progress: 0, target: 3, unlocked: false },
-    ];
-
-    const achievements = defaultAchievements.map(defaultAch => {
-        const storedAch = storedAchievements.find(ach => ach.id === defaultAch.id);
-        return storedAch ? { ...defaultAch, ...storedAch } : defaultAch;
+export function getAchievements(stats = getStats()) {
+    return ACHIEVEMENTS.map(a => {
+        const progress = Math.min(a.progress(stats), a.target);
+        return { ...a, progress, unlocked: progress >= a.target };
     });
-
-    const stats = getPlayerStats();
-    achievements.forEach(ach => {
-        if (ach.id === 'first_win' || ach.id === 'win_5_games') ach.progress = stats.gamesWon;
-        if (ach.id === 'perfect_game') ach.progress = stats.perfectGames;
-        if (ach.id === 'no_hint_win') ach.progress = stats.noHintWins;
-        if (ach.id === 'speed_run') ach.progress = stats.speedRuns;
-        if (ach.id === 'win_streak_3') ach.progress = stats.maxWinStreak;
-        if (ach.id === 'high_score_500') ach.progress = stats.totalScore >= 500 ? 1 : 0;
-        ach.unlocked = ach.progress >= ach.target;
-    });
-
-    localStorage.setItem(STORAGE_KEYS.ACHIEVEMENTS, JSON.stringify(achievements));
-    return achievements;
 }
 
-export function checkAchievements(outcome, gameState, settings) {
-    const achievements = getAchievements();
-    const updatedAchievements = achievements.map(ach => {
-        const updatedAch = { ...ach };
-        if (outcome === 'win') {
-            if (ach.id === 'first_win' || ach.id === 'win_5_games') {
-                updatedAch.progress = Math.min(updatedAch.progress + 1, ach.target);
-            }
-            if (ach.id === 'perfect_game' && gameState.isPerfectGame) {
-                updatedAch.progress = Math.min(updatedAch.progress + 1, ach.target);
-            }
-            if (ach.id === 'no_hint_win' && !gameState.hasUsedHint) {
-                updatedAch.progress = Math.min(updatedAch.progress + 1, ach.target);
-            }
-            if (ach.id === 'speed_run' && gameState.gameDuration <= APP_CONSTANTS.SPEED_RUN_THRESHOLD_SECONDS) {
-                updatedAch.progress = Math.min(updatedAch.progress + 1, ach.target);
-            }
-        }
-        if (ach.id === 'high_score_500' && gameState.score >= 500) {
-            updatedAch.progress = Math.min(updatedAch.progress + 1, ach.target);
-        }
-        if (ach.id === 'win_streak_3') {
-            const stats = getPlayerStats();
-            updatedAch.progress = stats.maxWinStreak;
-        }
-        if (!ach.unlocked && updatedAch.progress >= ach.target) {
-            updatedAch.unlocked = true;
-            UI.showAchievementToast(ach.name);
-        }
-        return updatedAch;
-    });
-
-    localStorage.setItem(STORAGE_KEYS.ACHIEVEMENTS, JSON.stringify(updatedAchievements));
+// Saves a finished game and reports which achievements it unlocked.
+export function recordGame(entry) {
+    const history = getHistory();
+    const before = new Set(getAchievements(getStats(history)).filter(a => a.unlocked).map(a => a.id));
+    history.push(normaliseEntry({ ...entry, at: new Date().toISOString() }));
+    write(KEYS.history, history.slice(-HISTORY_LIMIT));
+    const stats = getStats(history);
+    const unlocked = getAchievements(stats).filter(a => a.unlocked && !before.has(a.id));
+    return { stats, unlocked };
 }
 
-export function saveGameResult(gameResult) {
-    const history = JSON.parse(localStorage.getItem(STORAGE_KEYS.GAME_HISTORY) || '[]');
-    gameResult.playerId = getPlayerId();
-    history.push(gameResult);
-    localStorage.setItem(STORAGE_KEYS.GAME_HISTORY, JSON.stringify(history));
+export function getLeaderboard(mode = 'all') {
+    return getHistory()
+        .filter(game => game.outcome === 'win' && game.score > 0 && (mode === 'all' || game.mode === mode))
+        .sort((a, b) => b.score - a.score || String(b.at).localeCompare(String(a.at)))
+        .slice(0, 10);
 }
 
-export function resetAllData() {
-    localStorage.removeItem(STORAGE_KEYS.SETTINGS);
-    localStorage.removeItem(STORAGE_KEYS.GAME_HISTORY);
-    localStorage.removeItem(STORAGE_KEYS.ACHIEVEMENTS);
-    localStorage.removeItem(STORAGE_KEYS.PLAYER_ID);
-    UI.showToast('All data reset successfully.', 'success');
+export function resetProgress() {
+    store.removeItem(KEYS.history);
+    OLD_KEYS.forEach(key => store.removeItem(key));
 }
-// line_number_235

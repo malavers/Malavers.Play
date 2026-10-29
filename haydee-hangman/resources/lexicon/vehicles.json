@@ -46,10 +46,6 @@
         "hint": "A large truck for hauling goods."
       },
       {
-        "word": "sled",
-        "hint": "A vehicle for sliding on snow."
-      },
-      {
         "word": "tank",
         "hint": "A military vehicle with armor."
       },
@@ -282,10 +278,6 @@
         "hint": "A large sailing ship from the past."
       },
       {
-        "word": "dogcart",
-        "hint": "A light cart for sporting use."
-      },
-      {
         "word": "biplane",
         "hint": "A plane with two wings stacked."
       },
@@ -294,7 +286,7 @@
         "hint": "A boat for towing ships."
       },
       {
-        "word": "zepplin",
+        "word": "zeppelin",
         "hint": "A large airship with a rigid frame."
       },
       {
@@ -356,10 +348,6 @@
       {
         "word": "carriage",
         "hint": "A horse-drawn vehicle."
-      },
-      {
-        "word": "rickshaw",
-        "hint": "A pedal-powered passenger cart."
       },
       {
         "word": "schooner",
@@ -452,10 +440,6 @@
       {
         "word": "outrigger",
         "hint": "A canoe with a stabilizing float."
-      },
-      {
-        "word": "catamaran",
-        "hint": "A boat with two hulls."
       },
       {
         "word": "speedboat",

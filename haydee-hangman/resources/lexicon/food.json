@@ -468,10 +468,6 @@
         "hint": "Ground meat in a casing."
       },
       {
-        "word": "burger",
-        "hint": "A patty in a bun."
-      },
-      {
         "word": "cheddar",
         "hint": "A popular yellow cheese."
       },
@@ -510,14 +506,6 @@
         "hint": "An Indian mixed rice dish."
       },
       {
-        "word": "schnitzel",
-        "hint": "A thin, fried cut of meat."
-      },
-      {
-        "word": "falafel",
-        "hint": "Middle Eastern fried chickpea patties."
-      },
-      {
         "word": "tempura",
         "hint": "Japanese deep-fried seafood or vegetables."
       },
@@ -528,10 +516,6 @@
       {
         "word": "empanada",
         "hint": "A Latin American baked or fried pastry with filling."
-      },
-      {
-        "word": "paella",
-        "hint": "A Spanish rice dish with seafood."
       },
       {
         "word": "borscht",
@@ -560,10 +544,6 @@
       {
         "word": "caviar",
         "hint": "Salted fish eggs."
-      },
-      {
-        "word": "truffle",
-        "hint": "An expensive underground fungus."
       },
       {
         "word": "durian",
@@ -680,10 +660,6 @@
       {
         "word": "donut",
         "hint": "A sweet, fried dough pastry."
-      },
-      {
-        "word": "gingerbread",
-        "hint": "A spiced cake or cookie."
       },
       {
         "word": "macaroon",

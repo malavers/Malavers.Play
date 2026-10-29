@@ -1,0 +1,16 @@
+{
+  "name": "Haydee Hangman",
+  "short_name": "Hangman",
+  "description": "A phone-friendly hangman word game.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#9820c7",
+  "theme_color": "#6a0dad",
+  "icons": [
+    { "src": "resources/icons/icon-96x96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "resources/icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "resources/icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

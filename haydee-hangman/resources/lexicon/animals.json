@@ -1,0 +1,614 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "dog",
+        "hint": "A loyal pet that barks."
+      },
+      {
+        "word": "rat",
+        "hint": "A larger rodent often found in cities."
+      },
+      {
+        "word": "ant",
+        "hint": "A tiny insect that works in colonies."
+      },
+      {
+        "word": "bee",
+        "hint": "An insect that makes honey."
+      },
+      {
+        "word": "fly",
+        "hint": "A buzzing insect with wings."
+      },
+      {
+        "word": "pig",
+        "hint": "A farm animal that oinks."
+      },
+      {
+        "word": "owl",
+        "hint": "A nocturnal bird that hoots."
+      },
+      {
+        "word": "cow",
+        "hint": "A farm animal that produces milk."
+      },
+      {
+        "word": "cat",
+        "hint": "A common household pet that purrs."
+      },
+      {
+        "word": "emu",
+        "hint": "A tall, flightless bird from Australia."
+      },
+      {
+        "word": "fox",
+        "hint": "A cunning animal with a bushy tail."
+      },
+      {
+        "word": "ibex",
+        "hint": "A mountain goat with curved horns."
+      },
+      {
+        "word": "worm",
+        "hint": "A long, slimy creature that burrows."
+      },
+      {
+        "word": "orca",
+        "hint": "A black-and-white killer whale."
+      },
+      {
+        "word": "moth",
+        "hint": "A nocturnal insect attracted to light."
+      },
+      {
+        "word": "hawk",
+        "hint": "A bird that hunts with keen eyesight."
+      },
+      {
+        "word": "lynx",
+        "hint": "A wild cat with tufted ears."
+      },
+      {
+        "word": "kiwi",
+        "hint": "A flightless bird from New Zealand."
+      },
+      {
+        "word": "newt",
+        "hint": "A small amphibian with a tail."
+      },
+      {
+        "word": "gila",
+        "hint": "A venomous lizard from the desert."
+      },
+      {
+        "word": "toad",
+        "hint": "A bumpy-skinned amphibian."
+      },
+      {
+        "word": "crab",
+        "hint": "A sea creature with pincers."
+      },
+      {
+        "word": "deer",
+        "hint": "An animal with antlers."
+      },
+      {
+        "word": "swan",
+        "hint": "A graceful bird with a long neck."
+      },
+      {
+        "word": "bird",
+        "hint": "A creature with feathers that flies."
+      },
+      {
+        "word": "duck",
+        "hint": "A bird that quacks and swims."
+      },
+      {
+        "word": "fish",
+        "hint": "An aquatic animal with gills."
+      },
+      {
+        "word": "goat",
+        "hint": "A climbing animal with horns."
+      },
+      {
+        "word": "lion",
+        "hint": "A big cat known as the king of the jungle."
+      },
+      {
+        "word": "frog",
+        "hint": "An amphibian that hops."
+      },
+      {
+        "word": "wolf",
+        "hint": "A wild canine that howls."
+      },
+      {
+        "word": "bear",
+        "hint": "A large mammal that hibernates."
+      }
+    ],
+    "3": [
+      {
+        "word": "mamba",
+        "hint": "A highly venomous African snake."
+      },
+      {
+        "word": "whale",
+        "hint": "A massive sea creature that sings."
+      },
+      {
+        "word": "shark",
+        "hint": "A predatory fish with sharp teeth."
+      },
+      {
+        "word": "squid",
+        "hint": "A sea creature with ten tentacles."
+      },
+      {
+        "word": "lemur",
+        "hint": "A primate with a long tail from Madagascar."
+      },
+      {
+        "word": "cobra",
+        "hint": "A venomous snake with a hood."
+      },
+      {
+        "word": "eagle",
+        "hint": "A bird of prey with sharp talons."
+      },
+      {
+        "word": "gecko",
+        "hint": "A small lizard that climbs walls."
+      },
+      {
+        "word": "rhino",
+        "hint": "A large animal with a horn."
+      },
+      {
+        "word": "hippo",
+        "hint": "A large animal that loves water."
+      },
+      {
+        "word": "sloth",
+        "hint": "A slow-moving animal that hangs in trees."
+      },
+      {
+        "word": "hyena",
+        "hint": "A scavenger that laughs."
+      },
+      {
+        "word": "koala",
+        "hint": "An Australian marsupial that eats eucalyptus."
+      },
+      {
+        "word": "saiga",
+        "hint": "An antelope with a bulbous nose."
+      },
+      {
+        "word": "takin",
+        "hint": "A goat-like animal from the Himalayas."
+      },
+      {
+        "word": "fossa",
+        "hint": "A cat-like predator from Madagascar."
+      },
+      {
+        "word": "panda",
+        "hint": "A black-and-white bear from China."
+      },
+      {
+        "word": "goose",
+        "hint": "A bird that honks and migrates."
+      },
+      {
+        "word": "sheep",
+        "hint": "An animal with thick wool."
+      },
+      {
+        "word": "snake",
+        "hint": "A slithering reptile."
+      },
+      {
+        "word": "horse",
+        "hint": "A strong animal used for riding."
+      },
+      {
+        "word": "bongo",
+        "hint": "A striped antelope from African forests."
+      },
+      {
+        "word": "puppy",
+        "hint": "A young dog."
+      },
+      {
+        "word": "tapir",
+        "hint": "A pig-like animal with a short trunk."
+      },
+      {
+        "word": "tiger",
+        "hint": "A striped big cat."
+      },
+      {
+        "word": "camel",
+        "hint": "A desert animal with humps."
+      },
+      {
+        "word": "zebra",
+        "hint": "A striped horse-like animal."
+      },
+      {
+        "word": "krill",
+        "hint": "Tiny sea creatures eaten by whales."
+      },
+      {
+        "word": "okapi",
+        "hint": "A zebra-like animal from the Congo."
+      },
+      {
+        "word": "mouse",
+        "hint": "A tiny rodent that squeaks."
+      },
+      {
+        "word": "jackal",
+        "hint": "A small canine that scavenges."
+      },
+      {
+        "word": "jaguar",
+        "hint": "A big cat from the Americas."
+      },
+      {
+        "word": "mantis",
+        "hint": "An insect that prays with its arms."
+      },
+      {
+        "word": "serval",
+        "hint": "A wild cat with long legs."
+      },
+      {
+        "word": "baboon",
+        "hint": "A primate with a colorful face."
+      },
+      {
+        "word": "isopod",
+        "hint": "A deep-sea crustacean with many legs."
+      },
+      {
+        "word": "ocelot",
+        "hint": "A small, spotted wild cat."
+      },
+      {
+        "word": "walrus",
+        "hint": "A sea mammal with long tusks."
+      },
+      {
+        "word": "muskox",
+        "hint": "A shaggy Arctic mammal."
+      },
+      {
+        "word": "beluga",
+        "hint": "A white whale with a bulbous head."
+      },
+      {
+        "word": "condor",
+        "hint": "A large vulture from the Andes."
+      },
+      {
+        "word": "impala",
+        "hint": "A graceful antelope that leaps."
+      },
+      {
+        "word": "komodo",
+        "hint": "A giant lizard with a venomous bite."
+      },
+      {
+        "word": "caiman",
+        "hint": "A small alligator from South America."
+      },
+      {
+        "word": "dugong",
+        "hint": "A sea mammal similar to a manatee."
+      },
+      {
+        "word": "beetle",
+        "hint": "An insect with a hard shell."
+      },
+      {
+        "word": "quokka",
+        "hint": "A small marsupial that smiles."
+      },
+      {
+        "word": "parrot",
+        "hint": "A colorful bird that can talk."
+      },
+      {
+        "word": "turtle",
+        "hint": "A reptile with a hard shell."
+      },
+      {
+        "word": "rabbit",
+        "hint": "A small animal with long ears."
+      },
+      {
+        "word": "kitten",
+        "hint": "A young cat."
+      },
+      {
+        "word": "shrimp",
+        "hint": "A small sea creature with a curved body."
+      },
+      {
+        "word": "iguana",
+        "hint": "A large lizard with spines."
+      },
+      {
+        "word": "wombat",
+        "hint": "An Australian marsupial that burrows."
+      },
+      {
+        "word": "spider",
+        "hint": "An arachnid that spins webs."
+      },
+      {
+        "word": "monkey",
+        "hint": "A playful animal that swings in trees."
+      },
+      {
+        "word": "donkey",
+        "hint": "A stubborn animal used for carrying loads."
+      },
+      {
+        "word": "python",
+        "hint": "A large snake that constricts."
+      },
+      {
+        "word": "lizard",
+        "hint": "A scaly reptile that suns itself."
+      }
+    ],
+    "5": [
+      {
+        "word": "octopus",
+        "hint": "A sea creature with eight arms."
+      },
+      {
+        "word": "penguin",
+        "hint": "A flightless bird that waddles on ice."
+      },
+      {
+        "word": "ostrich",
+        "hint": "A large bird that runs fast."
+      },
+      {
+        "word": "quetzal",
+        "hint": "A colorful bird from Central America."
+      },
+      {
+        "word": "markhor",
+        "hint": "A goat with spiraled horns."
+      },
+      {
+        "word": "giraffe",
+        "hint": "A tall animal with a long neck."
+      },
+      {
+        "word": "cheetah",
+        "hint": "The fastest land animal."
+      },
+      {
+        "word": "gharial",
+        "hint": "A reptile with a long, thin snout."
+      },
+      {
+        "word": "hamster",
+        "hint": "A small pet that runs on a wheel."
+      },
+      {
+        "word": "gazelle",
+        "hint": "A swift antelope from savannas."
+      },
+      {
+        "word": "dolphin",
+        "hint": "A smart sea mammal that clicks."
+      },
+      {
+        "word": "manatee",
+        "hint": "A gentle sea cow that grazes."
+      },
+      {
+        "word": "caribou",
+        "hint": "A reindeer from the Arctic."
+      },
+      {
+        "word": "echidna",
+        "hint": "A spiny mammal that lays eggs."
+      },
+      {
+        "word": "caracal",
+        "hint": "A wild cat with tufted ears."
+      },
+      {
+        "word": "axolotl",
+        "hint": "An amphibian with external gills."
+      },
+      {
+        "word": "cricket",
+        "hint": "An insect that chirps."
+      },
+      {
+        "word": "firefly",
+        "hint": "An insect that glows at night."
+      },
+      {
+        "word": "ladybug",
+        "hint": "A red insect with black spots."
+      },
+      {
+        "word": "peacock",
+        "hint": "A bird with a colorful tail."
+      },
+      {
+        "word": "leopard",
+        "hint": "A spotted big cat that climbs."
+      },
+      {
+        "word": "meerkat",
+        "hint": "A small mammal that stands guard."
+      },
+      {
+        "word": "gorilla",
+        "hint": "A large primate that lives in forests."
+      },
+      {
+        "word": "narwhal",
+        "hint": "A sea mammal with a long tusk."
+      },
+      {
+        "word": "goldfish",
+        "hint": "A small fish kept as a pet."
+      },
+      {
+        "word": "mongoose",
+        "hint": "A small mammal that fights snakes."
+      },
+      {
+        "word": "nautilus",
+        "hint": "A sea creature with a spiral shell."
+      },
+      {
+        "word": "kangaroo",
+        "hint": "An Australian animal that hops."
+      },
+      {
+        "word": "capybara",
+        "hint": "The largest rodent in the world."
+      },
+      {
+        "word": "elephant",
+        "hint": "A large animal with a trunk."
+      },
+      {
+        "word": "scorpion",
+        "hint": "An arachnid with a stinging tail."
+      },
+      {
+        "word": "seahorse",
+        "hint": "A tiny fish that curls its tail."
+      },
+      {
+        "word": "pangolin",
+        "hint": "A scaly mammal that rolls up."
+      },
+      {
+        "word": "starfish",
+        "hint": "A sea creature shaped like a star."
+      },
+      {
+        "word": "anteater",
+        "hint": "An animal with a long snout."
+      },
+      {
+        "word": "aardvark",
+        "hint": "A nocturnal animal with a long snout."
+      },
+      {
+        "word": "platypus",
+        "hint": "An egg-laying mammal with a duck bill."
+      },
+      {
+        "word": "anaconda",
+        "hint": "A massive snake from South America."
+      },
+      {
+        "word": "flamingo",
+        "hint": "A pink bird that stands on one leg."
+      },
+      {
+        "word": "porcupine",
+        "hint": "A rodent with sharp quills."
+      },
+      {
+        "word": "armadillo",
+        "hint": "A mammal with bony plates."
+      },
+      {
+        "word": "butterfly",
+        "hint": "An insect with colorful wings."
+      },
+      {
+        "word": "tarantula",
+        "hint": "A large, hairy spider."
+      },
+      {
+        "word": "alligator",
+        "hint": "A reptile similar to a crocodile."
+      },
+      {
+        "word": "cassowary",
+        "hint": "A large, dangerous bird from Australia."
+      },
+      {
+        "word": "jellyfish",
+        "hint": "A stinging sea creature that floats."
+      },
+      {
+        "word": "albatross",
+        "hint": "A seabird with a massive wingspan."
+      },
+      {
+        "word": "centipede",
+        "hint": "An insect with many legs."
+      },
+      {
+        "word": "crocodile",
+        "hint": "A large reptile with powerful jaws."
+      },
+      {
+        "word": "orangutan",
+        "hint": "A red-haired primate from Asia."
+      },
+      {
+        "word": "millipede",
+        "hint": "An insect with even more legs."
+      },
+      {
+        "word": "dragonfly",
+        "hint": "An insect with large wings."
+      },
+      {
+        "word": "chameleon",
+        "hint": "A lizard that changes color."
+      },
+      {
+        "word": "coelacanth",
+        "hint": "A prehistoric fish thought extinct."
+      },
+      {
+        "word": "wildebeest",
+        "hint": "A migrating antelope from Africa."
+      },
+      {
+        "word": "chimpanzee",
+        "hint": "A smart primate that uses tools."
+      },
+      {
+        "word": "rhinoceros",
+        "hint": "A horned mammal from Africa."
+      },
+      {
+        "word": "salamander",
+        "hint": "An amphibian with a slimy body."
+      },
+      {
+        "word": "grasshopper",
+        "hint": "An insect that jumps high."
+      },
+      {
+        "word": "rattlesnake",
+        "hint": "A snake with a noisy tail."
+      }
+    ]
+  }
+}

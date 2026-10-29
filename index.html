@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavers Games</title>
+    <link rel="icon" type="image/png" href="haydee-hangman/resources/icons/icon-96x96.png">
+    <style>
+        /* One column of game cards; tap a card to play. */
+        :root {
+            --bg: #f6f2fb;
+            --card: #ffffff;
+            --text: #2b2140;
+            --muted: #6b6180;
+            --accent: #6a0dad;
+            --border: #e2d8ef;
+            --font: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #17121f;
+                --card: #221a2e;
+                --text: #efe8f8;
+                --muted: #a99cbd;
+                --accent: #c08bf0;
+                --border: #352a45;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+            font: 16px/1.5 var(--font);
+            padding: 24px max(16px, env(safe-area-inset-right, 0px)) 40px max(16px, env(safe-area-inset-left, 0px));
+        }
+        main { max-width: 520px; margin: 0 auto; display: grid; gap: 16px; }
+        h1 { margin: 0; font-size: 1.75rem; }
+        .lede { margin: 0; color: var(--muted); }
+        .game {
+            display: grid;
+            grid-template-columns: 64px 1fr;
+            gap: 16px;
+            align-items: center;
+            padding: 16px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            color: inherit;
+            text-decoration: none;
+        }
+        .game:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+        .game img { width: 64px; height: 64px; border-radius: 14px; }
+        .game h2 { margin: 0; font-size: 1.15rem; color: var(--accent); }
+        .game p { margin: 2px 0 0; color: var(--muted); font-size: 0.95rem; }
+        .tip { margin: 8px 0 0; color: var(--muted); font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Lavers Games</h1>
+        <p class="lede">Quick games for a few minutes between jobs.</p>
+
+        <a class="game" href="haydee-hangman/">
+            <img src="haydee-hangman/resources/icons/icon-192x192.png" alt="">
+            <div>
+                <h2>Haydee Hangman</h2>
+                <p>Guess the word before the picture is complete. 8 categories, 5 levels.</p>
+            </div>
+        </a>
+
+        <p class="tip">Tip: open a game, then use your browser's <strong>Add to Home Screen</strong> to give it its own icon. Scores are saved on your phone.</p>
+    </main>
+</body>
+</html>

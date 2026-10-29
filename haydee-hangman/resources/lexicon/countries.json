@@ -1,0 +1,614 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "laos",
+        "hint": "A landlocked country with Buddhist temples."
+      },
+      {
+        "word": "peru",
+        "hint": "A country with Machu Picchu."
+      },
+      {
+        "word": "mali",
+        "hint": "A country with Timbuktu."
+      },
+      {
+        "word": "chad",
+        "hint": "A country with Lake Chad."
+      },
+      {
+        "word": "fiji",
+        "hint": "A Pacific island nation with coral reefs."
+      },
+      {
+        "word": "togo",
+        "hint": "A small West African country."
+      }
+    ],
+    "3": [
+      {
+        "word": "nauru",
+        "hint": "One of the smallest countries in the world."
+      },
+      {
+        "word": "tonga",
+        "hint": "A Pacific kingdom with coral islands."
+      },
+      {
+        "word": "samoa",
+        "hint": "A Pacific island with Polynesian culture."
+      },
+      {
+        "word": "china",
+        "hint": "A large Asian nation with a Great Wall."
+      },
+      {
+        "word": "chile",
+        "hint": "A long, narrow South American country."
+      },
+      {
+        "word": "ghana",
+        "hint": "A West African country known for cocoa."
+      },
+      {
+        "word": "malta",
+        "hint": "A Mediterranean island with ancient temples."
+      },
+      {
+        "word": "sudan",
+        "hint": "A country with ancient Nubian pyramids."
+      },
+      {
+        "word": "libya",
+        "hint": "A North African country with Roman ruins."
+      },
+      {
+        "word": "korea",
+        "hint": "A peninsula with two nations."
+      },
+      {
+        "word": "haiti",
+        "hint": "A Caribbean country with a rich history."
+      },
+      {
+        "word": "kenya",
+        "hint": "An African country known for safaris."
+      },
+      {
+        "word": "palau",
+        "hint": "A Pacific nation with a jellyfish lake."
+      },
+      {
+        "word": "nepal",
+        "hint": "A country with Mount Everest."
+      },
+      {
+        "word": "india",
+        "hint": "A South Asian country known for the Taj Mahal."
+      },
+      {
+        "word": "congo",
+        "hint": "A country with the Congo River."
+      },
+      {
+        "word": "gabon",
+        "hint": "A country with lush rainforests."
+      },
+      {
+        "word": "japan",
+        "hint": "An island nation known for sushi."
+      },
+      {
+        "word": "egypt",
+        "hint": "A country with ancient pyramids."
+      },
+      {
+        "word": "benin",
+        "hint": "A country with a voodoo heritage."
+      },
+      {
+        "word": "italy",
+        "hint": "A country shaped like a boot, famous for pizza."
+      },
+      {
+        "word": "spain",
+        "hint": "A European country known for bullfighting."
+      },
+      {
+        "word": "niger",
+        "hint": "A landlocked country with vast deserts."
+      },
+      {
+        "word": "latvia",
+        "hint": "A Baltic country with Art Nouveau architecture."
+      },
+      {
+        "word": "cyprus",
+        "hint": "An island country with Greek and Turkish heritage."
+      },
+      {
+        "word": "monaco",
+        "hint": "A tiny country known for its casino."
+      },
+      {
+        "word": "bhutan",
+        "hint": "A Himalayan kingdom with Gross National Happiness."
+      },
+      {
+        "word": "brunei",
+        "hint": "A small sultanate on Borneo."
+      },
+      {
+        "word": "guyana",
+        "hint": "A South American country with rainforests."
+      },
+      {
+        "word": "guinea",
+        "hint": "A West African country with rich minerals."
+      },
+      {
+        "word": "gambia",
+        "hint": "A small country surrounded by Senegal."
+      },
+      {
+        "word": "malawi",
+        "hint": "A country with Lake Malawi."
+      },
+      {
+        "word": "bosnia",
+        "hint": "A country with a historic bridge in Mostar."
+      },
+      {
+        "word": "serbia",
+        "hint": "A Balkan country with vibrant festivals."
+      },
+      {
+        "word": "panama",
+        "hint": "A country with a famous canal."
+      },
+      {
+        "word": "belize",
+        "hint": "A country with the Great Blue Hole."
+      },
+      {
+        "word": "rwanda",
+        "hint": "A country known for gorilla trekking."
+      },
+      {
+        "word": "sweden",
+        "hint": "A Nordic country with long winters."
+      },
+      {
+        "word": "angola",
+        "hint": "A country on Africa's west coast."
+      },
+      {
+        "word": "zambia",
+        "hint": "A country with Victoria Falls."
+      },
+      {
+        "word": "uganda",
+        "hint": "A country with Lake Victoria."
+      },
+      {
+        "word": "poland",
+        "hint": "A European country known for pierogi."
+      },
+      {
+        "word": "norway",
+        "hint": "A country with fjords and the Northern Lights."
+      },
+      {
+        "word": "turkey",
+        "hint": "A country spanning Europe and Asia."
+      },
+      {
+        "word": "greece",
+        "hint": "A country with ancient ruins like the Parthenon."
+      },
+      {
+        "word": "russia",
+        "hint": "The largest country by land area."
+      },
+      {
+        "word": "mexico",
+        "hint": "A country famous for tacos and pyramids."
+      },
+      {
+        "word": "france",
+        "hint": "A European nation with the Eiffel Tower."
+      },
+      {
+        "word": "canada",
+        "hint": "A North American country with maple syrup."
+      },
+      {
+        "word": "brazil",
+        "hint": "A South American country famous for carnival."
+      }
+    ],
+    "5": [
+      {
+        "word": "grenada",
+        "hint": "A Caribbean island known as the Spice Isle."
+      },
+      {
+        "word": "morocco",
+        "hint": "A country known for its markets and couscous."
+      },
+      {
+        "word": "algeria",
+        "hint": "A North African country with a large desert."
+      },
+      {
+        "word": "ireland",
+        "hint": "An island nation famous for St. Patrick's Day."
+      },
+      {
+        "word": "nigeria",
+        "hint": "A West African country with a large population."
+      },
+      {
+        "word": "finland",
+        "hint": "A country known for saunas and Santa Claus."
+      },
+      {
+        "word": "denmark",
+        "hint": "A Nordic country known for Lego."
+      },
+      {
+        "word": "tunisia",
+        "hint": "A country with ancient Carthage ruins."
+      },
+      {
+        "word": "myanmar",
+        "hint": "A country with thousands of pagodas."
+      },
+      {
+        "word": "vanuatu",
+        "hint": "A Pacific nation with active volcanoes."
+      },
+      {
+        "word": "georgia",
+        "hint": "A country with a unique alphabet."
+      },
+      {
+        "word": "albania",
+        "hint": "A Balkan country with Ottoman history."
+      },
+      {
+        "word": "bahamas",
+        "hint": "An island nation with clear blue waters."
+      },
+      {
+        "word": "vatican",
+        "hint": "The smallest country in the world."
+      },
+      {
+        "word": "lesotho",
+        "hint": "A kingdom surrounded by South Africa."
+      },
+      {
+        "word": "namibia",
+        "hint": "A country with the Namib Desert."
+      },
+      {
+        "word": "eritrea",
+        "hint": "A country on the Red Sea coast."
+      },
+      {
+        "word": "somalia",
+        "hint": "A Horn of Africa country."
+      },
+      {
+        "word": "comoros",
+        "hint": "An island nation in the Indian Ocean."
+      },
+      {
+        "word": "liberia",
+        "hint": "A West African country founded by freed slaves."
+      },
+      {
+        "word": "germany",
+        "hint": "A European nation known for Oktoberfest."
+      },
+      {
+        "word": "senegal",
+        "hint": "A country with a vibrant music scene."
+      },
+      {
+        "word": "armenia",
+        "hint": "A country with ancient monasteries."
+      },
+      {
+        "word": "jamaica",
+        "hint": "A Caribbean island known for reggae."
+      },
+      {
+        "word": "ecuador",
+        "hint": "A country with the Galapagos Islands."
+      },
+      {
+        "word": "belgium",
+        "hint": "A country known for waffles and chocolate."
+      },
+      {
+        "word": "romania",
+        "hint": "A country with Dracula's castle."
+      },
+      {
+        "word": "iceland",
+        "hint": "A country with volcanoes and geysers."
+      },
+      {
+        "word": "uruguay",
+        "hint": "A South American country with Punta del Este."
+      },
+      {
+        "word": "estonia",
+        "hint": "A Baltic country with a digital society."
+      },
+      {
+        "word": "drcongo",
+        "hint": "A large country with vast rainforests."
+      },
+      {
+        "word": "bolivia",
+        "hint": "A country with the Salar de Uyuni."
+      },
+      {
+        "word": "ukraine",
+        "hint": "A country known for its sunflower fields."
+      },
+      {
+        "word": "vietnam",
+        "hint": "A country famous for pho and rice fields."
+      },
+      {
+        "word": "andorra",
+        "hint": "A small country in the Pyrenees."
+      },
+      {
+        "word": "croatia",
+        "hint": "A country with a stunning Adriatic coast."
+      },
+      {
+        "word": "hungary",
+        "hint": "A country with thermal baths."
+      },
+      {
+        "word": "austria",
+        "hint": "A country known for Mozart and skiing."
+      },
+      {
+        "word": "cambodia",
+        "hint": "A country with Angkor Wat."
+      },
+      {
+        "word": "thailand",
+        "hint": "A country known for its beaches and temples."
+      },
+      {
+        "word": "botswana",
+        "hint": "An African country with the Okavango Delta."
+      },
+      {
+        "word": "bulgaria",
+        "hint": "A country with ancient Thracian ruins."
+      },
+      {
+        "word": "ethiopia",
+        "hint": "An East African country with ancient churches."
+      },
+      {
+        "word": "slovenia",
+        "hint": "A country with Lake Bled."
+      },
+      {
+        "word": "eswatini",
+        "hint": "A small African kingdom."
+      },
+      {
+        "word": "djibouti",
+        "hint": "A small country with salt lakes."
+      },
+      {
+        "word": "zimbabwe",
+        "hint": "A country with Great Zimbabwe ruins."
+      },
+      {
+        "word": "portugal",
+        "hint": "A country famous for port wine."
+      },
+      {
+        "word": "slovakia",
+        "hint": "A country with medieval castles."
+      },
+      {
+        "word": "cameroon",
+        "hint": "A country with Mount Cameroon."
+      },
+      {
+        "word": "barbados",
+        "hint": "A Caribbean island with rum and beaches."
+      },
+      {
+        "word": "honduras",
+        "hint": "A country with coral reefs."
+      },
+      {
+        "word": "malaysia",
+        "hint": "A country with the Petronas Towers."
+      },
+      {
+        "word": "dominica",
+        "hint": "A Caribbean island with boiling lakes."
+      },
+      {
+        "word": "suriname",
+        "hint": "A small country with Dutch heritage."
+      },
+      {
+        "word": "pakistan",
+        "hint": "A country with the K2 mountain."
+      },
+      {
+        "word": "maldives",
+        "hint": "An island nation with overwater bungalows."
+      },
+      {
+        "word": "paraguay",
+        "hint": "A landlocked South American country."
+      },
+      {
+        "word": "mongolia",
+        "hint": "A country with vast steppes and nomads."
+      },
+      {
+        "word": "colombia",
+        "hint": "A country famous for coffee."
+      },
+      {
+        "word": "kiribati",
+        "hint": "A Pacific nation with scattered atolls."
+      },
+      {
+        "word": "srilanka",
+        "hint": "An island nation known for tea."
+      },
+      {
+        "word": "capeverde",
+        "hint": "An island nation off Africa's west coast."
+      },
+      {
+        "word": "australia",
+        "hint": "A country with kangaroos and the Outback."
+      },
+      {
+        "word": "sanmarino",
+        "hint": "A microstate surrounded by Italy."
+      },
+      {
+        "word": "costarica",
+        "hint": "A country known for ecotourism."
+      },
+      {
+        "word": "macedonia",
+        "hint": "A Balkan country with Lake Ohrid."
+      },
+      {
+        "word": "nicaragua",
+        "hint": "A country with volcanic lakes."
+      },
+      {
+        "word": "guatemala",
+        "hint": "A country with Mayan ruins."
+      },
+      {
+        "word": "mauritius",
+        "hint": "An island nation in the Indian Ocean."
+      },
+      {
+        "word": "venezuela",
+        "hint": "A country with Angel Falls."
+      },
+      {
+        "word": "singapore",
+        "hint": "A city-state known for its skyline."
+      },
+      {
+        "word": "argentina",
+        "hint": "A country known for tango and beef."
+      },
+      {
+        "word": "indonesia",
+        "hint": "An archipelago with Bali."
+      },
+      {
+        "word": "lithuania",
+        "hint": "A Baltic country with a hill of crosses."
+      },
+      {
+        "word": "kyrgyzstan",
+        "hint": "A country with nomadic traditions."
+      },
+      {
+        "word": "montenegro",
+        "hint": "A small country with a stunning coastline."
+      },
+      {
+        "word": "azerbaijan",
+        "hint": "A country with mud volcanoes."
+      },
+      {
+        "word": "bangladesh",
+        "hint": "A country with the Sundarbans mangrove forest."
+      },
+      {
+        "word": "mauritania",
+        "hint": "A country with ancient desert libraries."
+      },
+      {
+        "word": "seychelles",
+        "hint": "An island nation with pristine beaches."
+      },
+      {
+        "word": "mozambique",
+        "hint": "A country with a long Indian Ocean coast."
+      },
+      {
+        "word": "kazakhstan",
+        "hint": "A large Central Asian country with steppes."
+      },
+      {
+        "word": "madagascar",
+        "hint": "An island nation off Africa's coast."
+      },
+      {
+        "word": "timorleste",
+        "hint": "A young Southeast Asian nation."
+      },
+      {
+        "word": "tajikistan",
+        "hint": "A mountainous Central Asian country."
+      },
+      {
+        "word": "uzbekistan",
+        "hint": "A country with ancient Silk Road cities."
+      },
+      {
+        "word": "luxembourg",
+        "hint": "A small country with a grand duchy."
+      },
+      {
+        "word": "burkinafaso",
+        "hint": "A West African country with vibrant culture."
+      },
+      {
+        "word": "netherlands",
+        "hint": "A country with windmills and tulips."
+      },
+      {
+        "word": "switzerland",
+        "hint": "A country with Alps and watches."
+      },
+      {
+        "word": "afghanistan",
+        "hint": "A country with ancient Silk Road cities."
+      },
+      {
+        "word": "philippines",
+        "hint": "An island nation with over 7,000 islands."
+      },
+      {
+        "word": "turkmenistan",
+        "hint": "A country with a fiery gas crater."
+      },
+      {
+        "word": "liechtenstein",
+        "hint": "A tiny Alpine country between Austria and Switzerland."
+      }
+    ]
+  }
+}

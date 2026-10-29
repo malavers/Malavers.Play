@@ -1,0 +1,606 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "rv",
+        "hint": "A vehicle for camping and travel."
+      },
+      {
+        "word": "car",
+        "hint": "A four-wheeled personal transport."
+      },
+      {
+        "word": "bus",
+        "hint": "A large vehicle for public transport."
+      },
+      {
+        "word": "atv",
+        "hint": "A four-wheeled off-road vehicle."
+      },
+      {
+        "word": "jet",
+        "hint": "A fast airplane for travel."
+      },
+      {
+        "word": "suv",
+        "hint": "A sport utility vehicle for rough terrain."
+      },
+      {
+        "word": "van",
+        "hint": "A vehicle for carrying goods or people."
+      },
+      {
+        "word": "gig",
+        "hint": "A light, two-wheeled carriage."
+      },
+      {
+        "word": "sled",
+        "hint": "A vehicle for snow travel."
+      },
+      {
+        "word": "raft",
+        "hint": "A flat floating platform."
+      },
+      {
+        "word": "semi",
+        "hint": "A large truck for hauling goods."
+      },
+      {
+        "word": "sled",
+        "hint": "A vehicle for sliding on snow."
+      },
+      {
+        "word": "tank",
+        "hint": "A military vehicle with armor."
+      },
+      {
+        "word": "cart",
+        "hint": "A simple vehicle with wheels."
+      },
+      {
+        "word": "tram",
+        "hint": "A vehicle on rails in cities."
+      },
+      {
+        "word": "taxi",
+        "hint": "A car for hire with a driver."
+      },
+      {
+        "word": "dhow",
+        "hint": "An Arab sailing vessel."
+      },
+      {
+        "word": "ship",
+        "hint": "A large vessel for ocean travel."
+      },
+      {
+        "word": "boat",
+        "hint": "A vehicle that floats on water."
+      },
+      {
+        "word": "junk",
+        "hint": "A Chinese sailing ship with flat sails."
+      },
+      {
+        "word": "bike",
+        "hint": "A two-wheeled vehicle with pedals."
+      },
+      {
+        "word": "aero",
+        "hint": "A futuristic car-plane hybrid."
+      },
+      {
+        "word": "jeep",
+        "hint": "A rugged off-road vehicle."
+      }
+    ],
+    "3": [
+      {
+        "word": "sloop",
+        "hint": "A single-masted sailing vessel."
+      },
+      {
+        "word": "drone",
+        "hint": "A remote-controlled flying device."
+      },
+      {
+        "word": "baler",
+        "hint": "A machine for making hay bales."
+      },
+      {
+        "word": "sedan",
+        "hint": "A four-door passenger car."
+      },
+      {
+        "word": "coupe",
+        "hint": "A two-door car with a sporty look."
+      },
+      {
+        "word": "crane",
+        "hint": "A vehicle for lifting heavy objects."
+      },
+      {
+        "word": "rover",
+        "hint": "A vehicle for exploring planets."
+      },
+      {
+        "word": "barge",
+        "hint": "A flat boat for carrying cargo."
+      },
+      {
+        "word": "yacht",
+        "hint": "A luxurious sailing vessel."
+      },
+      {
+        "word": "train",
+        "hint": "A vehicle that runs on rails."
+      },
+      {
+        "word": "canoe",
+        "hint": "A small boat paddled by hand."
+      },
+      {
+        "word": "plane",
+        "hint": "A vehicle that flies in the sky."
+      },
+      {
+        "word": "kayak",
+        "hint": "A narrow boat for one or two people."
+      },
+      {
+        "word": "ferry",
+        "hint": "A boat for carrying passengers."
+      },
+      {
+        "word": "truck",
+        "hint": "A vehicle for carrying heavy loads."
+      },
+      {
+        "word": "wagon",
+        "hint": "A vehicle pulled by animals or people."
+      },
+      {
+        "word": "pickup",
+        "hint": "A truck with an open back."
+      },
+      {
+        "word": "camper",
+        "hint": "A vehicle with living quarters."
+      },
+      {
+        "word": "surrey",
+        "hint": "A horse-drawn carriage with two seats."
+      },
+      {
+        "word": "maglev",
+        "hint": "A train that floats on magnets."
+      },
+      {
+        "word": "zodiac",
+        "hint": "An inflatable boat for rescue."
+      },
+      {
+        "word": "howdah",
+        "hint": "A seat on an elephant's back."
+      },
+      {
+        "word": "hansom",
+        "hint": "A two-wheeled horse-drawn cab."
+      },
+      {
+        "word": "cruise",
+        "hint": "A large ship for vacation travel."
+      },
+      {
+        "word": "litter",
+        "hint": "A chair carried by people."
+      },
+      {
+        "word": "rocket",
+        "hint": "A vehicle for space travel."
+      },
+      {
+        "word": "segway",
+        "hint": "A two-wheeled electric scooter."
+      },
+      {
+        "word": "galley",
+        "hint": "A ship powered by oars."
+      },
+      {
+        "word": "landau",
+        "hint": "A horse-drawn carriage with a folding top."
+      },
+      {
+        "word": "glider",
+        "hint": "A plane without an engine."
+      },
+      {
+        "word": "tandem",
+        "hint": "A bicycle for two riders."
+      },
+      {
+        "word": "hearse",
+        "hint": "A vehicle for carrying coffins."
+      },
+      {
+        "word": "oxcart",
+        "hint": "A cart pulled by oxen."
+      },
+      {
+        "word": "jetski",
+        "hint": "A small watercraft for one rider."
+      },
+      {
+        "word": "subway",
+        "hint": "An underground train system."
+      },
+      {
+        "word": "gokart",
+        "hint": "A small racing vehicle."
+      }
+    ],
+    "5": [
+      {
+        "word": "trireme",
+        "hint": "An ancient Greek rowing ship."
+      },
+      {
+        "word": "frigate",
+        "hint": "A military ship for escort duties."
+      },
+      {
+        "word": "cruiser",
+        "hint": "A large naval warship."
+      },
+      {
+        "word": "shuttle",
+        "hint": "A spacecraft for orbiting Earth."
+      },
+      {
+        "word": "clipper",
+        "hint": "A fast sailing ship for trade."
+      },
+      {
+        "word": "bicycle",
+        "hint": "A pedal-powered two-wheeler."
+      },
+      {
+        "word": "dogcart",
+        "hint": "A cart pulled by dogs."
+      },
+      {
+        "word": "caravel",
+        "hint": "A small, fast sailing ship."
+      },
+      {
+        "word": "omnibus",
+        "hint": "An early horse-drawn bus."
+      },
+      {
+        "word": "galleon",
+        "hint": "A large sailing ship from the past."
+      },
+      {
+        "word": "dogcart",
+        "hint": "A light cart for sporting use."
+      },
+      {
+        "word": "biplane",
+        "hint": "A plane with two wings stacked."
+      },
+      {
+        "word": "tugboat",
+        "hint": "A boat for towing ships."
+      },
+      {
+        "word": "zepplin",
+        "hint": "A large airship with a rigid frame."
+      },
+      {
+        "word": "scooter",
+        "hint": "A small two-wheeled vehicle."
+      },
+      {
+        "word": "chariot",
+        "hint": "An ancient two-wheeled vehicle."
+      },
+      {
+        "word": "trailer",
+        "hint": "A vehicle towed for cargo."
+      },
+      {
+        "word": "minivan",
+        "hint": "A family vehicle with sliding doors."
+      },
+      {
+        "word": "balloon",
+        "hint": "A vehicle that floats with hot air."
+      },
+      {
+        "word": "combine",
+        "hint": "A farming vehicle for harvesting."
+      },
+      {
+        "word": "trolley",
+        "hint": "A vehicle on tracks in cities."
+      },
+      {
+        "word": "tractor",
+        "hint": "A vehicle for farming."
+      },
+      {
+        "word": "ricksha",
+        "hint": "A two-wheeled cart pulled by a person."
+      },
+      {
+        "word": "airship",
+        "hint": "A lighter-than-air craft."
+      },
+      {
+        "word": "brougham",
+        "hint": "A horse-drawn enclosed carriage."
+      },
+      {
+        "word": "barouche",
+        "hint": "A horse-drawn carriage with four wheels."
+      },
+      {
+        "word": "monorail",
+        "hint": "A train on a single rail."
+      },
+      {
+        "word": "rickshaw",
+        "hint": "A human-pulled cart."
+      },
+      {
+        "word": "carriage",
+        "hint": "A horse-drawn vehicle."
+      },
+      {
+        "word": "rickshaw",
+        "hint": "A pedal-powered passenger cart."
+      },
+      {
+        "word": "schooner",
+        "hint": "A sailing ship with two masts."
+      },
+      {
+        "word": "unicycle",
+        "hint": "A one-wheeled vehicle with pedals."
+      },
+      {
+        "word": "forklift",
+        "hint": "A vehicle for lifting heavy loads."
+      },
+      {
+        "word": "sailboat",
+        "hint": "A boat powered by wind."
+      },
+      {
+        "word": "cogwheel",
+        "hint": "A train for steep mountain slopes."
+      },
+      {
+        "word": "trimaran",
+        "hint": "A boat with three hulls."
+      },
+      {
+        "word": "curricle",
+        "hint": "A two-wheeled carriage for two horses."
+      },
+      {
+        "word": "autogyro",
+        "hint": "An aircraft with an unpowered rotor."
+      },
+      {
+        "word": "snowplow",
+        "hint": "A vehicle for clearing snow."
+      },
+      {
+        "word": "triplane",
+        "hint": "A plane with three stacked wings."
+      },
+      {
+        "word": "corvette",
+        "hint": "A small naval warship."
+      },
+      {
+        "word": "skytrain",
+        "hint": "A cargo plane from WWII."
+      },
+      {
+        "word": "seaplane",
+        "hint": "A plane that lands on water."
+      },
+      {
+        "word": "towtruck",
+        "hint": "A vehicle for towing broken cars."
+      },
+      {
+        "word": "draisine",
+        "hint": "An early human-powered rail vehicle."
+      },
+      {
+        "word": "amphibian",
+        "hint": "A plane that lands on water or land."
+      },
+      {
+        "word": "palanquin",
+        "hint": "A human-carried sedan chair."
+      },
+      {
+        "word": "monocoupe",
+        "hint": "A small, single-winged plane."
+      },
+      {
+        "word": "hydrofoil",
+        "hint": "A boat with wings for lift."
+      },
+      {
+        "word": "catamaran",
+        "hint": "A boat with two hulls."
+      },
+      {
+        "word": "funicular",
+        "hint": "A cable railway for steep hills."
+      },
+      {
+        "word": "ambulance",
+        "hint": "A vehicle for medical emergencies."
+      },
+      {
+        "word": "outrigger",
+        "hint": "A canoe with a stabilizing float."
+      },
+      {
+        "word": "catamaran",
+        "hint": "A boat with two hulls."
+      },
+      {
+        "word": "speedboat",
+        "hint": "A fast motorboat."
+      },
+      {
+        "word": "destroyer",
+        "hint": "A military ship for combat."
+      },
+      {
+        "word": "submarine",
+        "hint": "A vessel that travels underwater."
+      },
+      {
+        "word": "dumptruck",
+        "hint": "A truck for carrying loose material."
+      },
+      {
+        "word": "hatchback",
+        "hint": "A car with a rear door that lifts."
+      },
+      {
+        "word": "harvester",
+        "hint": "A machine for gathering crops."
+      },
+      {
+        "word": "excavator",
+        "hint": "A vehicle for digging."
+      },
+      {
+        "word": "bulldozer",
+        "hint": "A vehicle for moving earth."
+      },
+      {
+        "word": "policecar",
+        "hint": "A vehicle used by law enforcement."
+      },
+      {
+        "word": "limousine",
+        "hint": "A long, luxurious car."
+      },
+      {
+        "word": "firetruck",
+        "hint": "A vehicle for fighting fires."
+      },
+      {
+        "word": "buckboard",
+        "hint": "A simple horse-drawn wagon."
+      },
+      {
+        "word": "armoredcar",
+        "hint": "A vehicle for transporting valuables."
+      },
+      {
+        "word": "velocipede",
+        "hint": "An early bicycle design."
+      },
+      {
+        "word": "snowmobile",
+        "hint": "A motorized vehicle for snow."
+      },
+      {
+        "word": "helicopter",
+        "hint": "A vehicle with spinning blades."
+      },
+      {
+        "word": "brigantine",
+        "hint": "A two-masted sailing ship."
+      },
+      {
+        "word": "skateboard",
+        "hint": "A board with wheels for tricks."
+      },
+      {
+        "word": "gyrocopter",
+        "hint": "A small aircraft with a rotor."
+      },
+      {
+        "word": "stagecoach",
+        "hint": "A horse-drawn passenger vehicle."
+      },
+      {
+        "word": "ultralight",
+        "hint": "A small, lightweight aircraft."
+      },
+      {
+        "word": "floatplane",
+        "hint": "A plane with pontoons for water."
+      },
+      {
+        "word": "paraglider",
+        "hint": "A fabric wing for soaring."
+      },
+      {
+        "word": "hangglider",
+        "hint": "A frame for gliding in the air."
+      },
+      {
+        "word": "battleship",
+        "hint": "A heavily armored warship."
+      },
+      {
+        "word": "hovercraft",
+        "hint": "A vehicle that glides on air."
+      },
+      {
+        "word": "motorcycle",
+        "hint": "A fast two-wheeled vehicle."
+      },
+      {
+        "word": "ornithopter",
+        "hint": "An aircraft with flapping wings."
+      },
+      {
+        "word": "convertible",
+        "hint": "A car with a removable roof."
+      },
+      {
+        "word": "rollerblade",
+        "hint": "Shoes with wheels for skating."
+      },
+      {
+        "word": "stratoliner",
+        "hint": "An early commercial airliner."
+      },
+      {
+        "word": "submersible",
+        "hint": "A small underwater research vessel."
+      },
+      {
+        "word": "cementmixer",
+        "hint": "A truck for mixing concrete."
+      },
+      {
+        "word": "stationwagon",
+        "hint": "A car with extra cargo space."
+      },
+      {
+        "word": "pennyfarthing",
+        "hint": "A bicycle with a large front wheel."
+      },
+      {
+        "word": "aircraftcarrier",
+        "hint": "A ship for launching planes."
+      }
+    ]
+  }
+}

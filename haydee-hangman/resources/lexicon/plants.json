@@ -1,0 +1,602 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "yew",
+        "hint": "An evergreen shrub with red berries."
+      },
+      {
+        "word": "fig",
+        "hint": "A tree with sweet, soft fruit."
+      },
+      {
+        "word": "ivy",
+        "hint": "A climbing plant with heart-shaped leaves."
+      },
+      {
+        "word": "ash",
+        "hint": "A tree with strong wood."
+      },
+      {
+        "word": "elm",
+        "hint": "A tall tree with broad leaves."
+      },
+      {
+        "word": "oak",
+        "hint": "A strong tree with acorns."
+      },
+      {
+        "word": "rose",
+        "hint": "A flower known for its thorns."
+      },
+      {
+        "word": "teak",
+        "hint": "A tropical tree with durable wood."
+      },
+      {
+        "word": "jade",
+        "hint": "A succulent with thick, shiny leaves."
+      },
+      {
+        "word": "aloe",
+        "hint": "A succulent with healing gel."
+      },
+      {
+        "word": "sage",
+        "hint": "A herb with soft, gray-green leaves."
+      },
+      {
+        "word": "mint",
+        "hint": "A fragrant herb used in tea."
+      },
+      {
+        "word": "plum",
+        "hint": "A tree with purple fruit."
+      },
+      {
+        "word": "pear",
+        "hint": "A tree with juicy fruit."
+      },
+      {
+        "word": "iris",
+        "hint": "A flower with sword-like leaves."
+      },
+      {
+        "word": "pine",
+        "hint": "An evergreen tree with needles."
+      },
+      {
+        "word": "palm",
+        "hint": "A tropical tree with fan-like leaves."
+      },
+      {
+        "word": "fern",
+        "hint": "A leafy plant without flowers."
+      },
+      {
+        "word": "lily",
+        "hint": "A fragrant flower often used in bouquets."
+      }
+    ],
+    "3": [
+      {
+        "word": "maple",
+        "hint": "A tree with syrup and colorful leaves."
+      },
+      {
+        "word": "basil",
+        "hint": "An herb used in Italian cooking."
+      },
+      {
+        "word": "thyme",
+        "hint": "A small herb used in cooking."
+      },
+      {
+        "word": "liana",
+        "hint": "A woody vine in rainforests."
+      },
+      {
+        "word": "agave",
+        "hint": "A desert plant used for tequila."
+      },
+      {
+        "word": "yucca",
+        "hint": "A desert plant with spiky leaves."
+      },
+      {
+        "word": "kauri",
+        "hint": "A massive tree from New Zealand."
+      },
+      {
+        "word": "ebony",
+        "hint": "A tree with dark, heavy wood."
+      },
+      {
+        "word": "daisy",
+        "hint": "A simple flower with white petals."
+      },
+      {
+        "word": "holly",
+        "hint": "A shrub with red berries and spiky leaves."
+      },
+      {
+        "word": "kapok",
+        "hint": "A tropical tree with fluffy fibers."
+      },
+      {
+        "word": "tulip",
+        "hint": "A bulb flower in many colors."
+      },
+      {
+        "word": "peony",
+        "hint": "A flower with full, lush blooms."
+      },
+      {
+        "word": "pansy",
+        "hint": "A flower with a face-like pattern."
+      },
+      {
+        "word": "lilac",
+        "hint": "A shrub with fragrant purple clusters."
+      },
+      {
+        "word": "poppy",
+        "hint": "A red flower associated with remembrance."
+      },
+      {
+        "word": "grape",
+        "hint": "A vine that produces wine fruit."
+      },
+      {
+        "word": "cycad",
+        "hint": "An ancient plant with palm-like leaves."
+      },
+      {
+        "word": "olive",
+        "hint": "A tree with small, oily fruit."
+      },
+      {
+        "word": "birch",
+        "hint": "A tree with white bark."
+      },
+      {
+        "word": "cedar",
+        "hint": "A fragrant evergreen tree."
+      },
+      {
+        "word": "peach",
+        "hint": "A tree with fuzzy fruit."
+      },
+      {
+        "word": "mango",
+        "hint": "A tropical tree with sweet fruit."
+      },
+      {
+        "word": "grass",
+        "hint": "A common green plant in lawns."
+      },
+      {
+        "word": "beech",
+        "hint": "A tree with smooth bark and nuts."
+      },
+      {
+        "word": "apple",
+        "hint": "A tree that grows fruit."
+      },
+      {
+        "word": "lemon",
+        "hint": "A tree with sour yellow fruit."
+      },
+      {
+        "word": "ginkgo",
+        "hint": "An ancient tree with fan-shaped leaves."
+      },
+      {
+        "word": "walnut",
+        "hint": "A tree with hard-shelled nuts."
+      },
+      {
+        "word": "salvia",
+        "hint": "A plant with spikes of blue or red flowers."
+      },
+      {
+        "word": "laurel",
+        "hint": "A tree with glossy leaves."
+      },
+      {
+        "word": "cactus",
+        "hint": "A spiky desert plant."
+      },
+      {
+        "word": "banyan",
+        "hint": "A tree with aerial roots."
+      },
+      {
+        "word": "baobab",
+        "hint": "An African tree with a thick trunk."
+      },
+      {
+        "word": "willow",
+        "hint": "A tree with drooping branches."
+      },
+      {
+        "word": "spruce",
+        "hint": "A tree used for Christmas decorations."
+      },
+      {
+        "word": "dahlia",
+        "hint": "A flower with layered petals."
+      },
+      {
+        "word": "privet",
+        "hint": "A shrub used for hedges."
+      },
+      {
+        "word": "spirea",
+        "hint": "A shrub with small white or pink flowers."
+      },
+      {
+        "word": "azalea",
+        "hint": "A flowering shrub with bright blooms."
+      },
+      {
+        "word": "bamboo",
+        "hint": "A tall, fast-growing plant."
+      },
+      {
+        "word": "totara",
+        "hint": "A New Zealand tree with durable wood."
+      },
+      {
+        "word": "sundew",
+        "hint": "A carnivorous plant with sticky dew."
+      },
+      {
+        "word": "almond",
+        "hint": "A tree with edible nuts."
+      },
+      {
+        "word": "clover",
+        "hint": "A small plant with three leaves."
+      },
+      {
+        "word": "banana",
+        "hint": "A plant with long yellow fruit."
+      },
+      {
+        "word": "clivia",
+        "hint": "A plant with orange flower clusters."
+      },
+      {
+        "word": "nerine",
+        "hint": "A bulb with delicate pink flowers."
+      },
+      {
+        "word": "gnetum",
+        "hint": "A tropical plant with broad leaves."
+      },
+      {
+        "word": "crinum",
+        "hint": "A bulb with large, fragrant flowers."
+      },
+      {
+        "word": "zinnia",
+        "hint": "A colorful garden flower."
+      },
+      {
+        "word": "orchid",
+        "hint": "An exotic flower with intricate petals."
+      },
+      {
+        "word": "bamboo",
+        "hint": "A fast-growing plant used in construction."
+      },
+      {
+        "word": "violet",
+        "hint": "A small purple flower."
+      },
+      {
+        "word": "cherry",
+        "hint": "A tree with red fruit."
+      },
+      {
+        "word": "orange",
+        "hint": "A tree with bright citrus fruit."
+      }
+    ],
+    "5": [
+      {
+        "word": "sequoia",
+        "hint": "A massive tree found in California."
+      },
+      {
+        "word": "pitcher",
+        "hint": "A carnivorous plant with trapping pits."
+      },
+      {
+        "word": "boxwood",
+        "hint": "An evergreen shrub for topiary."
+      },
+      {
+        "word": "nigella",
+        "hint": "A flower with delicate, lacy foliage."
+      },
+      {
+        "word": "jasmine",
+        "hint": "A vine with sweet-smelling flowers."
+      },
+      {
+        "word": "aconite",
+        "hint": "A toxic plant with hooded flowers."
+      },
+      {
+        "word": "heather",
+        "hint": "A low shrub with purple flowers."
+      },
+      {
+        "word": "anemone",
+        "hint": "A delicate flower with black centers."
+      },
+      {
+        "word": "monarda",
+        "hint": "A plant with shaggy flower heads."
+      },
+      {
+        "word": "juniper",
+        "hint": "An evergreen shrub with berries."
+      },
+      {
+        "word": "begonia",
+        "hint": "A plant with waxy leaves and flowers."
+      },
+      {
+        "word": "fuchsia",
+        "hint": "A flower with dangling blooms."
+      },
+      {
+        "word": "petunia",
+        "hint": "A flower with trumpet-shaped blooms."
+      },
+      {
+        "word": "dogwood",
+        "hint": "A tree with cross-shaped flowers."
+      },
+      {
+        "word": "saguaro",
+        "hint": "A tall cactus with arms."
+      },
+      {
+        "word": "coconut",
+        "hint": "A palm tree with hard-shelled fruit."
+      },
+      {
+        "word": "cypress",
+        "hint": "A tall evergreen with soft needles."
+      },
+      {
+        "word": "sycamore",
+        "hint": "A tree with mottled bark."
+      },
+      {
+        "word": "mahogany",
+        "hint": "A tree with reddish-brown wood."
+      },
+      {
+        "word": "rosemary",
+        "hint": "A woody herb with needle-like leaves."
+      },
+      {
+        "word": "hazelnut",
+        "hint": "A tree with small, round nuts."
+      },
+      {
+        "word": "lavender",
+        "hint": "A purple plant with a soothing scent."
+      },
+      {
+        "word": "epiphyte",
+        "hint": "A plant that grows on other plants."
+      },
+      {
+        "word": "dracaena",
+        "hint": "A plant with long, sword-like leaves."
+      },
+      {
+        "word": "magnolia",
+        "hint": "A tree with large, fragrant flowers."
+      },
+      {
+        "word": "mangrove",
+        "hint": "A tree that grows in coastal swamps."
+      },
+      {
+        "word": "hawthorn",
+        "hint": "A thorny tree with red berries."
+      },
+      {
+        "word": "gardenia",
+        "hint": "A fragrant white flower."
+      },
+      {
+        "word": "larkspur",
+        "hint": "A tall flower with blue spikes."
+      },
+      {
+        "word": "chestnut",
+        "hint": "A tree with edible nuts."
+      },
+      {
+        "word": "wisteria",
+        "hint": "A vine with cascading purple flowers."
+      },
+      {
+        "word": "clematis",
+        "hint": "A climbing plant with star-shaped flowers."
+      },
+      {
+        "word": "viburnum",
+        "hint": "A shrub with white flower clusters."
+      },
+      {
+        "word": "hibiscus",
+        "hint": "A tropical flower with large petals."
+      },
+      {
+        "word": "scabiosa",
+        "hint": "A flower with pincushion-like blooms."
+      },
+      {
+        "word": "marigold",
+        "hint": "A bright orange or yellow flower."
+      },
+      {
+        "word": "cyclamen",
+        "hint": "A plant with upswept petals."
+      },
+      {
+        "word": "barberry",
+        "hint": "A thorny shrub with red berries."
+      },
+      {
+        "word": "camellia",
+        "hint": "A flower similar to a rose."
+      },
+      {
+        "word": "geranium",
+        "hint": "A popular garden flower."
+      },
+      {
+        "word": "coreopsis",
+        "hint": "A flower with bright yellow blooms."
+      },
+      {
+        "word": "rudbeckia",
+        "hint": "A flower with yellow petals and a dark center."
+      },
+      {
+        "word": "kniphofia",
+        "hint": "A plant with fiery, torch-like flowers."
+      },
+      {
+        "word": "hellebore",
+        "hint": "A winter flower with nodding blooms."
+      },
+      {
+        "word": "dandelion",
+        "hint": "A weed with a fluffy seed head."
+      },
+      {
+        "word": "colchicum",
+        "hint": "A bulb with autumn-blooming flowers."
+      },
+      {
+        "word": "amaryllis",
+        "hint": "A bulb with large, trumpet-shaped flowers."
+      },
+      {
+        "word": "chamomile",
+        "hint": "A plant used for calming tea."
+      },
+      {
+        "word": "cordyline",
+        "hint": "A plant with colorful, strappy leaves."
+      },
+      {
+        "word": "echinacea",
+        "hint": "A plant with cone-shaped flowers."
+      },
+      {
+        "word": "carnation",
+        "hint": "A flower often used in corsages."
+      },
+      {
+        "word": "strangler",
+        "hint": "A fig that chokes its host tree."
+      },
+      {
+        "word": "forsythia",
+        "hint": "A shrub with bright yellow flowers."
+      },
+      {
+        "word": "penstemon",
+        "hint": "A plant with tubular flowers."
+      },
+      {
+        "word": "hydrangea",
+        "hint": "A shrub with large, colorful blooms."
+      },
+      {
+        "word": "rafflesia",
+        "hint": "A parasitic plant with huge flowers."
+      },
+      {
+        "word": "gladiolus",
+        "hint": "A tall flower with sword-like leaves."
+      },
+      {
+        "word": "araucaria",
+        "hint": "A conifer with soft needles."
+      },
+      {
+        "word": "bromeliad",
+        "hint": "A tropical plant with a water-holding rosette."
+      },
+      {
+        "word": "sunflower",
+        "hint": "A tall plant that follows the sun."
+      },
+      {
+        "word": "podocarpus",
+        "hint": "An evergreen with berry-like cones."
+      },
+      {
+        "word": "gaillardia",
+        "hint": "A flower with red and yellow petals."
+      },
+      {
+        "word": "sandalwood",
+        "hint": "A fragrant tree used in perfumes."
+      },
+      {
+        "word": "agapanthus",
+        "hint": "A plant with blue or white flower clusters."
+      },
+      {
+        "word": "snapdragon",
+        "hint": "A flower that snaps when squeezed."
+      },
+      {
+        "word": "delphinium",
+        "hint": "A flower with tall blue spikes."
+      },
+      {
+        "word": "bladderwort",
+        "hint": "A carnivorous plant with tiny traps."
+      },
+      {
+        "word": "welwitschia",
+        "hint": "A desert plant with two long leaves."
+      },
+      {
+        "word": "metasequoia",
+        "hint": "A deciduous conifer from China."
+      },
+      {
+        "word": "hippeastrum",
+        "hint": "A bulb with showy, star-shaped flowers."
+      },
+      {
+        "word": "venusflytrap",
+        "hint": "A carnivorous plant that snaps shut."
+      },
+      {
+        "word": "rhododendron",
+        "hint": "A shrub with large flower clusters."
+      },
+      {
+        "word": "chrysanthemum",
+        "hint": "A flower with many petals."
+      }
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "up",
+        "hint": "The opposite direction of down"
+      },
+      {
+        "word": "in",
+        "hint": "In or to the inner side of; within"
+      },
+      {
+        "word": "out",
+        "hint": "The external side or surface of something"
+      },
+      {
+        "word": "two",
+        "hint": "The second number"
+      },
+      {
+        "word": "six",
+        "hint": "The number after five"
+      },
+      {
+        "word": "sad",
+        "hint": "Feeling or showing sorrow; unhappy"
+      },
+      {
+        "word": "hot",
+        "hint": "Having a high temperature"
+      },
+      {
+        "word": "one",
+        "hint": "The first number"
+      },
+      {
+        "word": "new",
+        "hint": "Not existing before, recently made or discovered"
+      },
+      {
+        "word": "old",
+        "hint": "The opposite of new"
+      },
+      {
+        "word": "far",
+        "hint": "A long distance away"
+      },
+      {
+        "word": "ten",
+        "hint": "The number after nine"
+      },
+      {
+        "word": "red",
+        "hint": "A bright colour like an apple"
+      },
+      {
+        "word": "big",
+        "hint": "Of considerable size or extent"
+      },
+      {
+        "word": "down",
+        "hint": "Towards a lower place or position"
+      },
+      {
+        "word": "left",
+        "hint": "The opposite direction of right"
+      },
+      {
+        "word": "five",
+        "hint": "Half of ten"
+      },
+      {
+        "word": "zero",
+        "hint": "The number before one"
+      },
+      {
+        "word": "dark",
+        "hint": "Absence of light"
+      },
+      {
+        "word": "full",
+        "hint": "Containing or holding as much or nearly as much as possible"
+      },
+      {
+        "word": "near",
+        "hint": "A short distance away"
+      },
+      {
+        "word": "blue",
+        "hint": "A colour like the sky"
+      },
+      {
+        "word": "pink",
+        "hint": "A soft colour like cotton candy"
+      },
+      {
+        "word": "four",
+        "hint": "The number after three"
+      },
+      {
+        "word": "gray",
+        "hint": "A colour like a cloudy sky"
+      },
+      {
+        "word": "nine",
+        "hint": "The number before ten"
+      },
+      {
+        "word": "cold",
+        "hint": "Low temperature, opposite of hot"
+      },
+      {
+        "word": "long",
+        "hint": "Having a great extent in space or time"
+      },
+      {
+        "word": "hard",
+        "hint": "Requiring a great deal of effort or endurance"
+      },
+      {
+        "word": "easy",
+        "hint": "Achieved without great effort; presenting few difficulties"
+      },
+      {
+        "word": "fast",
+        "hint": "Moving or capable of moving at high speed"
+      },
+      {
+        "word": "slow",
+        "hint": "Moving or operating at a low speed; not quick or fast"
+      },
+      {
+        "word": "loud",
+        "hint": "Producing or capable of producing much noise"
+      }
+    ],
+    "3": [
+      {
+        "word": "seven",
+        "hint": "A lucky number"
+      },
+      {
+        "word": "eight",
+        "hint": "The number after seven"
+      },
+      {
+        "word": "three",
+        "hint": "The number after two"
+      },
+      {
+        "word": "small",
+        "hint": "Of a size that is less than normal or usual"
+      },
+      {
+        "word": "brown",
+        "hint": "A colour like wood"
+      },
+      {
+        "word": "happy",
+        "hint": "Feeling or showing pleasure or contentment"
+      },
+      {
+        "word": "angry",
+        "hint": "Feeling or showing strong annoyance, displeasure, or hostility"
+      },
+      {
+        "word": "black",
+        "hint": "A colour like night"
+      },
+      {
+        "word": "short",
+        "hint": "Having a small extent from one end to the other"
+      },
+      {
+        "word": "white",
+        "hint": "A colour like snow"
+      },
+      {
+        "word": "dirty",
+        "hint": "Soiled, stained, or polluted"
+      },
+      {
+        "word": "green",
+        "hint": "A colour like grass"
+      },
+      {
+        "word": "tired",
+        "hint": "In need of sleep or rest; weary"
+      },
+      {
+        "word": "bored",
+        "hint": "Feeling weary and impatient because one is unoccupied or lacks interest"
+      },
+      {
+        "word": "right",
+        "hint": "The opposite direction of left; correct"
+      },
+      {
+        "word": "quiet",
+        "hint": "Making little or no noise"
+      },
+      {
+        "word": "clean",
+        "hint": "Free from dirt, marks, or stains"
+      },
+      {
+        "word": "empty",
+        "hint": "Containing nothing; not filled or occupied"
+      },
+      {
+        "word": "sixty",
+        "hint": "The number after fifty"
+      },
+      {
+        "word": "fifty",
+        "hint": "The number after forty"
+      },
+      {
+        "word": "forty",
+        "hint": "The number after thirty"
+      },
+      {
+        "word": "light",
+        "hint": "The natural agent that stimulates sight and makes things visible"
+      },
+      {
+        "word": "funny",
+        "hint": "Causing laughter or amusement"
+      },
+      {
+        "word": "eighty",
+        "hint": "The number after seventy"
+      },
+      {
+        "word": "thirty",
+        "hint": "The number after nine"
+      },
+      {
+        "word": "twenty",
+        "hint": "The number after nine"
+      },
+      {
+        "word": "circle",
+        "hint": "A round shape"
+      },
+      {
+        "word": "purple",
+        "hint": "A colour like grapes"
+      },
+      {
+        "word": "scared",
+        "hint": "Frightened; alarmed"
+      },
+      {
+        "word": "orange",
+        "hint": "A colour like a fruit"
+      },
+      {
+        "word": "ninety",
+        "hint": "The number after eighty"
+      },
+      {
+        "word": "yellow",
+        "hint": "A colour like the sun"
+      },
+      {
+        "word": "square",
+        "hint": "A shape with four equal sides"
+      }
+    ],
+    "5": [
+      {
+        "word": "hundred",
+        "hint": "The number after ninety-nine"
+      },
+      {
+        "word": "seventy",
+        "hint": "The number after sixty"
+      },
+      {
+        "word": "million",
+        "hint": "A very big number after thousand"
+      },
+      {
+        "word": "hexagon",
+        "hint": "A shape with six sides"
+      },
+      {
+        "word": "triangle",
+        "hint": "A shape with three sides"
+      },
+      {
+        "word": "pentagon",
+        "hint": "A shape with five sides"
+      },
+      {
+        "word": "thousand",
+        "hint": "A big number after nine hundred ninety-nine"
+      },
+      {
+        "word": "rectangle",
+        "hint": "A shape with opposite equal sides"
+      }
+    ]
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "rio",
+        "hint": "A Brazilian city with Carnival."
+      },
+      {
+        "word": "juba",
+        "hint": "The capital of South Sudan."
+      },
+      {
+        "word": "lima",
+        "hint": "The capital of Peru."
+      },
+      {
+        "word": "riga",
+        "hint": "The capital of Latvia."
+      },
+      {
+        "word": "tegu",
+        "hint": "The capital of Honduras."
+      },
+      {
+        "word": "baku",
+        "hint": "The capital of Azerbaijan."
+      },
+      {
+        "word": "oslo",
+        "hint": "The capital of Norway."
+      },
+      {
+        "word": "rome",
+        "hint": "The capital of Italy with ancient ruins."
+      },
+      {
+        "word": "dili",
+        "hint": "The capital of Timor-Leste."
+      },
+      {
+        "word": "lome",
+        "hint": "The capital of Togo."
+      }
+    ],
+    "3": [
+      {
+        "word": "porto",
+        "hint": "The capital of Benin."
+      },
+      {
+        "word": "milan",
+        "hint": "An Italian city known for fashion."
+      },
+      {
+        "word": "hanoi",
+        "hint": "The capital of Vietnam."
+      },
+      {
+        "word": "porto",
+        "hint": "A Portuguese city known for wine."
+      },
+      {
+        "word": "sofia",
+        "hint": "The capital of Bulgaria."
+      },
+      {
+        "word": "paris",
+        "hint": "The capital of France with a famous tower."
+      },
+      {
+        "word": "tokyo",
+        "hint": "A bustling Asian metropolis."
+      },
+      {
+        "word": "kabul",
+        "hint": "The capital of Afghanistan."
+      },
+      {
+        "word": "lagos",
+        "hint": "A major city in Nigeria."
+      },
+      {
+        "word": "quito",
+        "hint": "The capital of Ecuador."
+      },
+      {
+        "word": "accra",
+        "hint": "The capital of Ghana."
+      },
+      {
+        "word": "dakar",
+        "hint": "The capital of Senegal."
+      },
+      {
+        "word": "lapaz",
+        "hint": "A high-altitude capital of Bolivia."
+      },
+      {
+        "word": "delhi",
+        "hint": "The capital of India."
+      },
+      {
+        "word": "vaduz",
+        "hint": "The capital of Liechtenstein."
+      },
+      {
+        "word": "cairo",
+        "hint": "The capital of Egypt with pyramids nearby."
+      },
+      {
+        "word": "praia",
+        "hint": "The capital of Cape Verde."
+      },
+      {
+        "word": "dubai",
+        "hint": "A city with the world's tallest building."
+      },
+      {
+        "word": "seoul",
+        "hint": "The capital of South Korea."
+      },
+      {
+        "word": "niamey",
+        "hint": "The capital of Niger."
+      },
+      {
+        "word": "venice",
+        "hint": "An Italian city with canals."
+      },
+      {
+        "word": "banjul",
+        "hint": "The capital of Gambia."
+      },
+      {
+        "word": "naples",
+        "hint": "An Italian city near Vesuvius."
+      },
+      {
+        "word": "lisbon",
+        "hint": "A Portuguese city with historic trams."
+      },
+      {
+        "word": "athens",
+        "hint": "A Greek city with the Acropolis."
+      },
+      {
+        "word": "moroni",
+        "hint": "The capital of Comoros."
+      },
+      {
+        "word": "zagreb",
+        "hint": "The capital of Croatia."
+      },
+      {
+        "word": "kigali",
+        "hint": "The capital of Rwanda."
+      },
+      {
+        "word": "monaco",
+        "hint": "A city-state with a famous casino."
+      },
+      {
+        "word": "tirana",
+        "hint": "The capital of Albania."
+      },
+      {
+        "word": "havana",
+        "hint": "The capital of Cuba."
+      },
+      {
+        "word": "nassau",
+        "hint": "The capital of the Bahamas."
+      },
+      {
+        "word": "bamako",
+        "hint": "The capital of Mali."
+      },
+      {
+        "word": "panama",
+        "hint": "The capital of Panama."
+      },
+      {
+        "word": "maputo",
+        "hint": "The capital of Mozambique."
+      },
+      {
+        "word": "maseru",
+        "hint": "The capital of Lesotho."
+      },
+      {
+        "word": "lusaka",
+        "hint": "The capital of Zambia."
+      },
+      {
+        "word": "harare",
+        "hint": "The capital of Zimbabwe."
+      },
+      {
+        "word": "munich",
+        "hint": "A German city with Oktoberfest."
+      },
+      {
+        "word": "astana",
+        "hint": "The capital of Kazakhstan."
+      },
+      {
+        "word": "skopje",
+        "hint": "The capital of North Macedonia."
+      },
+      {
+        "word": "asmara",
+        "hint": "The capital of Eritrea."
+      },
+      {
+        "word": "zurich",
+        "hint": "A Swiss city known for banking."
+      },
+      {
+        "word": "london",
+        "hint": "The capital of the United Kingdom."
+      },
+      {
+        "word": "ankara",
+        "hint": "The capital of Turkey."
+      },
+      {
+        "word": "madrid",
+        "hint": "The capital of Spain."
+      },
+      {
+        "word": "berlin",
+        "hint": "The capital of Germany."
+      },
+      {
+        "word": "dublin",
+        "hint": "The capital of Ireland."
+      },
+      {
+        "word": "tehran",
+        "hint": "The capital of Iran."
+      },
+      {
+        "word": "ottawa",
+        "hint": "The capital of Canada."
+      },
+      {
+        "word": "manila",
+        "hint": "The capital of the Philippines."
+      },
+      {
+        "word": "riyadh",
+        "hint": "The capital of Saudi Arabia."
+      },
+      {
+        "word": "bogota",
+        "hint": "The capital of Colombia."
+      },
+      {
+        "word": "lisbon",
+        "hint": "The capital of Portugal."
+      },
+      {
+        "word": "prague",
+        "hint": "The capital of the Czech Republic."
+      },
+      {
+        "word": "athens",
+        "hint": "The capital of Greece with ancient ruins."
+      },
+      {
+        "word": "moscow",
+        "hint": "The capital of Russia."
+      },
+      {
+        "word": "warsaw",
+        "hint": "The capital of Poland."
+      },
+      {
+        "word": "sydney",
+        "hint": "An Australian city with an opera house."
+      },
+      {
+        "word": "vienna",
+        "hint": "The capital of Austria."
+      },
+      {
+        "word": "mexico",
+        "hint": "The capital of Mexico."
+      }
+    ],
+    "5": [
+      {
+        "word": "sanjuan",
+        "hint": "The capital of Puerto Rico."
+      },
+      {
+        "word": "bishkek",
+        "hint": "The capital of Kyrgyzstan."
+      },
+      {
+        "word": "sanjose",
+        "hint": "The capital of Costa Rica."
+      },
+      {
+        "word": "managua",
+        "hint": "The capital of Nicaragua."
+      },
+      {
+        "word": "kampala",
+        "hint": "The capital of Uganda."
+      },
+      {
+        "word": "jakarta",
+        "hint": "The capital of Indonesia."
+      },
+      {
+        "word": "thimphu",
+        "hint": "The capital of Bhutan."
+      },
+      {
+        "word": "conakry",
+        "hint": "The capital of Guinea."
+      },
+      {
+        "word": "yerevan",
+        "hint": "The capital of Armenia."
+      },
+      {
+        "word": "andorra",
+        "hint": "The capital of Andorra."
+      },
+      {
+        "word": "nairobi",
+        "hint": "The capital of Kenya."
+      },
+      {
+        "word": "mbabane",
+        "hint": "The capital of Eswatini."
+      },
+      {
+        "word": "vatican",
+        "hint": "The smallest city-state in the world."
+      },
+      {
+        "word": "yaounde",
+        "hint": "The capital of Cameroon."
+      },
+      {
+        "word": "newyork",
+        "hint": "A U.S. city with a big apple nickname."
+      },
+      {
+        "word": "caracas",
+        "hint": "The capital of Venezuela."
+      },
+      {
+        "word": "seville",
+        "hint": "A Spanish city with flamenco."
+      },
+      {
+        "word": "tbilisi",
+        "hint": "The capital of Georgia."
+      },
+      {
+        "word": "bangkok",
+        "hint": "The capital of Thailand."
+      },
+      {
+        "word": "beijing",
+        "hint": "The capital of China."
+      },
+      {
+        "word": "baghdad",
+        "hint": "The capital of Iraq."
+      },
+      {
+        "word": "vilnius",
+        "hint": "The capital of Lithuania."
+      },
+      {
+        "word": "tallinn",
+        "hint": "The capital of Estonia."
+      },
+      {
+        "word": "nicosia",
+        "hint": "The capital of Cyprus."
+      },
+      {
+        "word": "toronto",
+        "hint": "A Canadian city with a tall tower."
+      },
+      {
+        "word": "ashgabat",
+        "hint": "The capital of Turkmenistan."
+      },
+      {
+        "word": "helsinki",
+        "hint": "The capital of Finland."
+      },
+      {
+        "word": "dushanbe",
+        "hint": "The capital of Tajikistan."
+      },
+      {
+        "word": "windhoek",
+        "hint": "The capital of Namibia."
+      },
+      {
+        "word": "tashkent",
+        "hint": "The capital of Uzbekistan."
+      },
+      {
+        "word": "lilongwe",
+        "hint": "The capital of Malawi."
+      },
+      {
+        "word": "sarajevo",
+        "hint": "The capital of Bosnia and Herzegovina."
+      },
+      {
+        "word": "gaborone",
+        "hint": "The capital of Botswana."
+      },
+      {
+        "word": "valletta",
+        "hint": "The capital of Malta."
+      },
+      {
+        "word": "florence",
+        "hint": "An Italian city with Renaissance art."
+      },
+      {
+        "word": "valencia",
+        "hint": "A Spanish city with a futuristic complex."
+      },
+      {
+        "word": "santiago",
+        "hint": "The capital of Chile."
+      },
+      {
+        "word": "belgrade",
+        "hint": "The capital of Serbia."
+      },
+      {
+        "word": "ndjamena",
+        "hint": "The capital of Chad."
+      },
+      {
+        "word": "djibouti",
+        "hint": "The capital of Djibouti."
+      },
+      {
+        "word": "istanbul",
+        "hint": "A Turkish city spanning two continents."
+      },
+      {
+        "word": "kingston",
+        "hint": "The capital of Jamaica."
+      },
+      {
+        "word": "monrovia",
+        "hint": "The capital of Liberia."
+      },
+      {
+        "word": "canberra",
+        "hint": "The capital of Australia."
+      },
+      {
+        "word": "asuncion",
+        "hint": "The capital of Paraguay."
+      },
+      {
+        "word": "capetown",
+        "hint": "A South African city with Table Mountain."
+      },
+      {
+        "word": "budapest",
+        "hint": "The capital of Hungary."
+      },
+      {
+        "word": "brussels",
+        "hint": "The capital of Belgium."
+      },
+      {
+        "word": "brasilia",
+        "hint": "The capital of Brazil."
+      },
+      {
+        "word": "kinshasa",
+        "hint": "The capital of DR Congo."
+      },
+      {
+        "word": "mogadishu",
+        "hint": "The capital of Somalia."
+      },
+      {
+        "word": "amsterdam",
+        "hint": "A Dutch city with canals."
+      },
+      {
+        "word": "reykjavik",
+        "hint": "The capital of Iceland."
+      },
+      {
+        "word": "podgorica",
+        "hint": "The capital of Montenegro."
+      },
+      {
+        "word": "stockholm",
+        "hint": "The capital of Sweden."
+      },
+      {
+        "word": "phnompenh",
+        "hint": "The capital of Cambodia."
+      },
+      {
+        "word": "naypyidaw",
+        "hint": "The capital of Myanmar."
+      },
+      {
+        "word": "vientiane",
+        "hint": "The capital of Laos."
+      },
+      {
+        "word": "barcelona",
+        "hint": "A Spanish city with Gaudi architecture."
+      },
+      {
+        "word": "singapore",
+        "hint": "A city-state with a famous skyline."
+      },
+      {
+        "word": "guatemala",
+        "hint": "The capital of Guatemala."
+      },
+      {
+        "word": "bucharest",
+        "hint": "The capital of Romania."
+      },
+      {
+        "word": "sanmarino",
+        "hint": "The capital of San Marino."
+      },
+      {
+        "word": "ljubljana",
+        "hint": "The capital of Slovenia."
+      },
+      {
+        "word": "libreville",
+        "hint": "The capital of Gabon."
+      },
+      {
+        "word": "nouakchott",
+        "hint": "The capital of Mauritania."
+      },
+      {
+        "word": "luxembourg",
+        "hint": "The capital of Luxembourg."
+      },
+      {
+        "word": "montevideo",
+        "hint": "The capital of Uruguay."
+      },
+      {
+        "word": "addisababa",
+        "hint": "The capital of Ethiopia."
+      },
+      {
+        "word": "copenhagen",
+        "hint": "The capital of Denmark."
+      },
+      {
+        "word": "ouagadougou",
+        "hint": "The capital of Burkina Faso."
+      },
+      {
+        "word": "buenosaires",
+        "hint": "The capital of Argentina."
+      },
+      {
+        "word": "kualalumpur",
+        "hint": "The capital of Malaysia."
+      },
+      {
+        "word": "brazzaville",
+        "hint": "The capital of Congo."
+      },
+      {
+        "word": "antananarivo",
+        "hint": "The capital of Madagascar."
+      },
+      {
+        "word": "johannesburg",
+        "hint": "A major city in South Africa."
+      },
+      {
+        "word": "bandarseribegawan",
+        "hint": "The capital of Brunei."
+      }
+    ]
+  }
+}

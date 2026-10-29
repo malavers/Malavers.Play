@@ -1,0 +1,722 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "wat",
+        "hint": "An Ethiopian spicy stew."
+      },
+      {
+        "word": "ful",
+        "hint": "An Egyptian fava bean dish."
+      },
+      {
+        "word": "pie",
+        "hint": "A baked dish with a crust."
+      },
+      {
+        "word": "pho",
+        "hint": "A Vietnamese noodle soup."
+      },
+      {
+        "word": "jam",
+        "hint": "A thick fruit spread."
+      },
+      {
+        "word": "mole",
+        "hint": "A Mexican sauce with chocolate."
+      },
+      {
+        "word": "cake",
+        "hint": "A sweet baked dessert."
+      },
+      {
+        "word": "flan",
+        "hint": "A caramel custard dessert."
+      },
+      {
+        "word": "crab",
+        "hint": "A seafood with pincers."
+      },
+      {
+        "word": "dosa",
+        "hint": "An Indian rice pancake."
+      },
+      {
+        "word": "idli",
+        "hint": "An Indian steamed rice cake."
+      },
+      {
+        "word": "sake",
+        "hint": "A Japanese rice wine."
+      },
+      {
+        "word": "fish",
+        "hint": "An aquatic animal used as food."
+      },
+      {
+        "word": "taco",
+        "hint": "A Mexican folded tortilla with filling."
+      },
+      {
+        "word": "soup",
+        "hint": "A liquid food with ingredients."
+      },
+      {
+        "word": "loaf",
+        "hint": "A shaped mass of bread."
+      },
+      {
+        "word": "rice",
+        "hint": "A staple grain."
+      },
+      {
+        "word": "nuts",
+        "hint": "Edible kernels in a hard shell."
+      },
+      {
+        "word": "date",
+        "hint": "A sweet fruit from a palm tree."
+      },
+      {
+        "word": "kale",
+        "hint": "A leafy green vegetable."
+      },
+      {
+        "word": "plum",
+        "hint": "A sweet, juicy fruit with a pit."
+      },
+      {
+        "word": "salt",
+        "hint": "A common seasoning."
+      },
+      {
+        "word": "bean",
+        "hint": "An edible seed from a plant."
+      },
+      {
+        "word": "fig",
+        "hint": "A sweet, soft fruit."
+      },
+      {
+        "word": "quinoa",
+        "hint": "A grain-like superfood."
+      },
+      {
+        "word": "muesli",
+        "hint": "A breakfast cereal with oats and fruit."
+      },
+      {
+        "word": "stew",
+        "hint": "A dish cooked slowly in liquid."
+      },
+      {
+        "word": "curry",
+        "hint": "A spicy Indian dish."
+      },
+      {
+        "word": "roast",
+        "hint": "Meat or vegetables cooked with dry heat."
+      },
+      {
+        "word": "toast",
+        "hint": "Bread browned by heat."
+      },
+      {
+        "word": "muffin",
+        "hint": "A small, sweet bread."
+      },
+      {
+        "word": "pizza",
+        "hint": "An Italian dish with cheese and toppings."
+      },
+      {
+        "word": "steak",
+        "hint": "A cut of meat."
+      },
+      {
+        "word": "bread",
+        "hint": "A basic food made from dough."
+      }
+    ],
+    "3": [
+      {
+        "word": "kimchi",
+        "hint": "A spicy Korean fermented cabbage dish."
+      },
+      {
+        "word": "sushi",
+        "hint": "A Japanese dish with rice and raw fish."
+      },
+      {
+        "word": "gnocchi",
+        "hint": "Italian potato dumplings."
+      },
+      {
+        "word": "tiramisu",
+        "hint": "An Italian coffee-flavored dessert."
+      },
+      {
+        "word": "burger",
+        "hint": "A patty in a bun."
+      },
+      {
+        "word": "kebab",
+        "hint": "Meat grilled on a skewer."
+      },
+      {
+        "word": "pasta",
+        "hint": "Italian noodle-like food."
+      },
+      {
+        "word": "dumpling",
+        "hint": "A small dough pocket with filling."
+      },
+      {
+        "word": "yogurt",
+        "hint": "A fermented milk product."
+      },
+      {
+        "word": "biscuit",
+        "hint": "A small, baked good."
+      },
+      {
+        "word": "waffle",
+        "hint": "A batter cooked in an iron with a grid pattern."
+      },
+      {
+        "word": "pancake",
+        "hint": "A flat cake cooked on a griddle."
+      },
+      {
+        "word": "samosa",
+        "hint": "A fried pastry with savory filling."
+      },
+      {
+        "word": "baguette",
+        "hint": "A long, thin French bread."
+      },
+      {
+        "word": "noodles",
+        "hint": "Long, thin strips of pasta."
+      },
+      {
+        "word": "moussaka",
+        "hint": "A Greek eggplant and meat casserole."
+      },
+      {
+        "word": "couscous",
+        "hint": "North African semolina grains."
+      },
+      {
+        "word": "falafel",
+        "hint": "Middle Eastern fried chickpea patties."
+      },
+      {
+        "word": "lasagna",
+        "hint": "An Italian layered pasta dish."
+      },
+      {
+        "word": "pastry",
+        "hint": "Baked dough, often sweet."
+      },
+      {
+        "word": "ramen",
+        "hint": "A Japanese noodle soup dish."
+      },
+      {
+        "word": "schnitzel",
+        "hint": "A thin, fried cut of meat."
+      },
+      {
+        "word": "sashimi",
+        "hint": "Japanese raw fish slices."
+      },
+      {
+        "word": "tostada",
+        "hint": "A fried tortilla with toppings."
+      },
+      {
+        "word": "burrito",
+        "hint": "A Mexican wrap with filling."
+      },
+      {
+        "word": "paella",
+        "hint": "A Spanish rice dish."
+      },
+      {
+        "word": "hummus",
+        "hint": "A Middle Eastern chickpea dip."
+      },
+      {
+        "word": "bagel",
+        "hint": "A round, chewy bread."
+      },
+      {
+        "word": "pudding",
+        "hint": "A soft, sweet dessert."
+      },
+      {
+        "word": "popcorn",
+        "hint": "Puffed corn kernels."
+      },
+      {
+        "word": "pretzel",
+        "hint": "A twisted, salted bread."
+      },
+      {
+        "word": "gelato",
+        "hint": "Italian ice cream."
+      },
+      {
+        "word": "lentil",
+        "hint": "A small, edible legume."
+      },
+      {
+        "word": "oatmeal",
+        "hint": "Cooked oats, often for breakfast."
+      },
+      {
+        "word": "cereal",
+        "hint": "Grain-based breakfast food."
+      },
+      {
+        "word": "cheesecake",
+        "hint": "A dessert with a cheese filling."
+      },
+      {
+        "word": "gingerbread",
+        "hint": "A spiced cookie or cake."
+      },
+      {
+        "word": "meatball",
+        "hint": "A ground meat ball."
+      },
+      {
+        "word": "frankfurter",
+        "hint": "A type of sausage, often in a hot dog."
+      },
+      {
+        "word": "omelette",
+        "hint": "Eggs beaten and cooked."
+      },
+      {
+        "word": "croquette",
+        "hint": "A small, fried, breaded roll."
+      },
+      {
+        "word": "sandwich",
+        "hint": "Filling between two slices of bread."
+      },
+      {
+        "word": "broccoli",
+        "hint": "A green vegetable with florets."
+      },
+      {
+        "word": "spinach",
+        "hint": "A leafy green vegetable."
+      },
+      {
+        "word": "cabbage",
+        "hint": "A leafy green or purple vegetable."
+      },
+      {
+        "word": "lettuce",
+        "hint": "A leafy green for salads."
+      },
+      {
+        "word": "celery",
+        "hint": "A crisp, green stalk vegetable."
+      },
+      {
+        "word": "cucumber",
+        "hint": "A long, green vegetable."
+      },
+      {
+        "word": "eggplant",
+        "hint": "A purple vegetable."
+      },
+      {
+        "word": "zucchini",
+        "hint": "A green squash."
+      },
+      {
+        "word": "mushroom",
+        "hint": "An edible fungus."
+      },
+      {
+        "word": "apricot",
+        "hint": "A small, orange fruit."
+      },
+      {
+        "word": "avocado",
+        "hint": "A green fruit with a large pit."
+      },
+      {
+        "word": "coconut",
+        "hint": "A tropical fruit with a hard shell."
+      },
+      {
+        "word": "grapefruit",
+        "hint": "A large, sour citrus fruit."
+      },
+      {
+        "word": "raspberry",
+        "hint": "A small, red berry."
+      },
+      {
+        "word": "blueberry",
+        "hint": "A small, sweet blue berry."
+      },
+      {
+        "word": "cranberry",
+        "hint": "A red, tart berry."
+      },
+      {
+        "word": "chickpea",
+        "hint": "A versatile legume."
+      },
+      {
+        "word": "hazelnut",
+        "hint": "A type of nut."
+      },
+      {
+        "word": "macadamia",
+        "hint": "A creamy, Australian nut."
+      },
+      {
+        "word": "pistachio",
+        "hint": "A green nut in a shell."
+      },
+      {
+        "word": "truffle",
+        "hint": "An expensive underground fungus."
+      },
+      {
+        "word": "parsley",
+        "hint": "A green herb for garnishing."
+      },
+      {
+        "word": "oregano",
+        "hint": "A fragrant herb used in Italian food."
+      },
+      {
+        "word": "cinnamon",
+        "hint": "A spice from tree bark."
+      },
+      {
+        "word": "nutmeg",
+        "hint": "A warm spice often grated."
+      },
+      {
+        "word": "saffron",
+        "hint": "The world's most expensive spice."
+      },
+      {
+        "word": "vanilla",
+        "hint": "A popular flavoring from an orchid."
+      },
+      {
+        "word": "mustard",
+        "hint": "A pungent condiment."
+      },
+      {
+        "word": "ketchup",
+        "hint": "A tomato-based condiment."
+      },
+      {
+        "word": "mayo",
+        "hint": "A creamy white condiment."
+      },
+      {
+        "word": "tuna",
+        "hint": "A popular fish for sandwiches."
+      },
+      {
+        "word": "salmon",
+        "hint": "A pink, fatty fish."
+      },
+      {
+        "word": "cod",
+        "hint": "A white fish."
+      },
+      {
+        "word": "prawn",
+        "hint": "A small, edible crustacean."
+      },
+      {
+        "word": "oyster",
+        "hint": "A bivalve mollusk, sometimes eaten raw."
+      },
+      {
+        "word": "sardine",
+        "hint": "A small, oily fish."
+      },
+      {
+        "word": "lamb",
+        "hint": "Meat from a young sheep."
+      },
+      {
+        "word": "pork",
+        "hint": "Meat from a pig."
+      },
+      {
+        "word": "bacon",
+        "hint": "Cured pork belly."
+      },
+      {
+        "word": "sausage",
+        "hint": "Ground meat in a casing."
+      },
+      {
+        "word": "burger",
+        "hint": "A patty in a bun."
+      },
+      {
+        "word": "cheddar",
+        "hint": "A popular yellow cheese."
+      },
+      {
+        "word": "gouda",
+        "hint": "A Dutch cheese."
+      },
+      {
+        "word": "edam",
+        "hint": "A Dutch cheese in a red wax."
+      }
+    ],
+    "5": [
+      {
+        "word": "mofongo",
+        "hint": "A Puerto Rican dish with fried plantains."
+      },
+      {
+        "word": "jollof",
+        "hint": "A West African rice dish."
+      },
+      {
+        "word": "ceviche",
+        "hint": "A Latin American seafood dish cured in citrus."
+      },
+      {
+        "word": "feijoada",
+        "hint": "A Brazilian black bean and meat stew."
+      },
+      {
+        "word": "gazpacho",
+        "hint": "A cold Spanish tomato soup."
+      },
+      {
+        "word": "biryani",
+        "hint": "An Indian mixed rice dish."
+      },
+      {
+        "word": "schnitzel",
+        "hint": "A thin, fried cut of meat."
+      },
+      {
+        "word": "falafel",
+        "hint": "Middle Eastern fried chickpea patties."
+      },
+      {
+        "word": "tempura",
+        "hint": "Japanese deep-fried seafood or vegetables."
+      },
+      {
+        "word": "dolmades",
+        "hint": "Greek stuffed grape leaves."
+      },
+      {
+        "word": "empanada",
+        "hint": "A Latin American baked or fried pastry with filling."
+      },
+      {
+        "word": "paella",
+        "hint": "A Spanish rice dish with seafood."
+      },
+      {
+        "word": "borscht",
+        "hint": "An Eastern European beet soup."
+      },
+      {
+        "word": "ratatouille",
+        "hint": "A French vegetable stew."
+      },
+      {
+        "word": "goulash",
+        "hint": "A Hungarian meat and vegetable stew."
+      },
+      {
+        "word": "strudel",
+        "hint": "A layered pastry with fruit filling."
+      },
+      {
+        "word": "pavlova",
+        "hint": "A meringue-based dessert."
+      },
+      {
+        "word": "halva",
+        "hint": "A dense, sweet confectionery."
+      },
+      {
+        "word": "caviar",
+        "hint": "Salted fish eggs."
+      },
+      {
+        "word": "truffle",
+        "hint": "An expensive underground fungus."
+      },
+      {
+        "word": "durian",
+        "hint": "A Southeast Asian fruit with a strong odor."
+      },
+      {
+        "word": "mangosteen",
+        "hint": "A tropical fruit with a purple rind."
+      },
+      {
+        "word": "persimmon",
+        "hint": "An orange, sweet fruit."
+      },
+      {
+        "word": "artichoke",
+        "hint": "A thistle vegetable."
+      },
+      {
+        "word": "asparagus",
+        "hint": "A green stalk vegetable."
+      },
+      {
+        "word": "bokchoy",
+        "hint": "A Chinese leafy green vegetable."
+      },
+      {
+        "word": "rhubarb",
+        "hint": "A tart stalk vegetable."
+      },
+      {
+        "word": "watercress",
+        "hint": "A leafy green often used in salads."
+      },
+      {
+        "word": "wasabi",
+        "hint": "A pungent green Japanese condiment."
+      },
+      {
+        "word": "pesto",
+        "hint": "An Italian basil sauce."
+      },
+      {
+        "word": "tabasco",
+        "hint": "A famous hot sauce."
+      },
+      {
+        "word": "anchovy",
+        "hint": "A small, salty fish."
+      },
+      {
+        "word": "calamari",
+        "hint": "Fried squid."
+      },
+      {
+        "word": "scallop",
+        "hint": "A bivalve mollusk."
+      },
+      {
+        "word": "venison",
+        "hint": "Meat from a deer."
+      },
+      {
+        "word": "prosciutto",
+        "hint": "Italian dry-cured ham."
+      },
+      {
+        "word": "mortadella",
+        "hint": "A large Italian sausage."
+      },
+      {
+        "word": "boursin",
+        "hint": "A soft, flavored cheese."
+      },
+      {
+        "word": "camembert",
+        "hint": "A soft, creamy French cheese."
+      },
+      {
+        "word": "gorgonzola",
+        "hint": "An Italian blue cheese."
+      },
+      {
+        "word": "halloumi",
+        "hint": "A salty, grillable cheese."
+      },
+      {
+        "word": "mozzarella",
+        "hint": "A white Italian cheese."
+      },
+      {
+        "word": "parmesan",
+        "hint": "A hard Italian cheese."
+      },
+      {
+        "word": "ricotta",
+        "hint": "A soft, Italian whey cheese."
+      },
+      {
+        "word": "fondue",
+        "hint": "Melted cheese served with dippers."
+      },
+      {
+        "word": "churros",
+        "hint": "Fried dough pastries."
+      },
+      {
+        "word": "crepes",
+        "hint": "Thin French pancakes."
+      },
+      {
+        "word": "croissant",
+        "hint": "A flaky French pastry."
+      },
+      {
+        "word": "donut",
+        "hint": "A sweet, fried dough pastry."
+      },
+      {
+        "word": "gingerbread",
+        "hint": "A spiced cake or cookie."
+      },
+      {
+        "word": "macaroon",
+        "hint": "A delicate French cookie."
+      },
+      {
+        "word": "sourdough",
+        "hint": "A tangy bread with a thick crust."
+      },
+      {
+        "word": "casserole",
+        "hint": "A baked dish with mixed ingredients."
+      },
+      {
+        "word": "enchilada",
+        "hint": "A Mexican rolled tortilla with sauce."
+      },
+      {
+        "word": "roganjosh",
+        "hint": "An Indian lamb curry."
+      },
+      {
+        "word": "chocolate",
+        "hint": "A sweet made from cocoa."
+      },
+      {
+        "word": "shakshuka",
+        "hint": "A North African egg and tomato dish."
+      },
+      {
+        "word": "quesadilla",
+        "hint": "A Mexican tortilla with cheese."
+      }
+    ]
+  }
+}

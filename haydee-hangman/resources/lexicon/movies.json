@@ -1,0 +1,602 @@
+{
+  "words_by_difficulty": {
+    "1": [
+      {
+        "word": "et",
+        "hint": "A film about a friendly alien."
+      },
+      {
+        "word": "us",
+        "hint": "A horror film about doppelgangers."
+      },
+      {
+        "word": "up",
+        "hint": "An animated film about a balloon house."
+      },
+      {
+        "word": "ran",
+        "hint": "A Japanese film inspired by King Lear."
+      },
+      {
+        "word": "thor",
+        "hint": "A superhero film about a Norse god."
+      },
+      {
+        "word": "pulp",
+        "hint": "A crime film with nonlinear storytelling."
+      },
+      {
+        "word": "hero",
+        "hint": "A Chinese film about an assassin."
+      },
+      {
+        "word": "cars",
+        "hint": "An animated film about racing vehicles."
+      },
+      {
+        "word": "hulk",
+        "hint": "A superhero film about a green giant."
+      },
+      {
+        "word": "xmen",
+        "hint": "A film about mutant superheroes."
+      },
+      {
+        "word": "coco",
+        "hint": "An animated film about the Day of the Dead."
+      },
+      {
+        "word": "troy",
+        "hint": "A film about the Trojan War."
+      },
+      {
+        "word": "jaws",
+        "hint": "A thriller about a killer shark."
+      },
+      {
+        "word": "blue",
+        "hint": "A French film about grief and music."
+      },
+      {
+        "word": "dune",
+        "hint": "A sci-fi epic about a desert planet."
+      },
+      {
+        "word": "howl",
+        "hint": "An animated film about a moving castle."
+      },
+      {
+        "word": "alien",
+        "hint": "A sci-fi horror about a deadly creature."
+      },
+      {
+        "word": "elite",
+        "hint": "A Brazilian film about police corruption."
+      },
+      {
+        "word": "rambo",
+        "hint": "An action film about a war veteran."
+      },
+      {
+        "word": "speed",
+        "hint": "An action film about a runaway bus."
+      },
+      {
+        "word": "logan",
+        "hint": "A gritty superhero film about Wolverine."
+      },
+      {
+        "word": "blade",
+        "hint": "A film about a vampire hunter."
+      },
+      {
+        "word": "taken",
+        "hint": "An action film about a kidnapped daughter."
+      },
+      {
+        "word": "drive",
+        "hint": "A noir film about a stunt driver."
+      },
+      {
+        "word": "rocky",
+        "hint": "A boxing drama with an underdog hero."
+      },
+      {
+        "word": "shrek",
+        "hint": "An animated film about a green ogre."
+      },
+      {
+        "word": "seven",
+        "hint": "A Japanese film about seven samurai."
+      },
+      {
+        "word": "moana",
+        "hint": "A Disney film about a Polynesian princess."
+      },
+      {
+        "word": "ipman",
+        "hint": "A martial arts film about a Wing Chun master."
+      },
+      {
+        "word": "akira",
+        "hint": "A Japanese animated cyberpunk film."
+      },
+      {
+        "word": "amelie",
+        "hint": "A whimsical French romance."
+      },
+      {
+        "word": "battle",
+        "hint": "A French film about a dance war."
+      },
+      {
+        "word": "amelie",
+        "hint": "A French film about a quirky woman."
+      },
+      {
+        "word": "django",
+        "hint": "A Western about a freed slave."
+      },
+      {
+        "word": "casino",
+        "hint": "A film about mob-run Las Vegas."
+      },
+      {
+        "word": "totoro",
+        "hint": "An animated film about a forest spirit."
+      },
+      {
+        "word": "psycho",
+        "hint": "A thriller about a motel murder."
+      },
+      {
+        "word": "zodiac",
+        "hint": "A film about a real-life serial killer."
+      },
+      {
+        "word": "getout",
+        "hint": "A thriller about race and deception."
+      },
+      {
+        "word": "oldboy",
+        "hint": "A Korean thriller about revenge."
+      },
+      {
+        "word": "narnia",
+        "hint": "A fantasy film about a magical land."
+      },
+      {
+        "word": "avatar",
+        "hint": "A sci-fi film about a blue alien world."
+      },
+      {
+        "word": "grease",
+        "hint": "A musical about high school romance."
+      },
+      {
+        "word": "frozen",
+        "hint": "A Disney film about a snow queen."
+      },
+      {
+        "word": "hobbit",
+        "hint": "A fantasy film about a dragon's treasure."
+      },
+      {
+        "word": "madmax",
+        "hint": "A post-apocalyptic action film."
+      },
+      {
+        "word": "matrix",
+        "hint": "A sci-fi film about a virtual reality."
+      },
+      {
+        "word": "batman",
+        "hint": "A superhero film about a caped crusader."
+      },
+      {
+        "word": "shutter",
+        "hint": "A horror film with ghostly images."
+      }
+    ],
+    "3": [
+      {
+        "word": "bigfish",
+        "hint": "A fantasy drama about tall tales."
+      },
+      {
+        "word": "chicago",
+        "hint": "A musical about fame and crime."
+      },
+      {
+        "word": "shining",
+        "hint": "A horror film set in a haunted hotel."
+      },
+      {
+        "word": "silence",
+        "hint": "A film about faith in Japan."
+      },
+      {
+        "word": "birdman",
+        "hint": "A film about an actor's comeback."
+      },
+      {
+        "word": "requiem",
+        "hint": "A drama about drug addiction."
+      },
+      {
+        "word": "diehard",
+        "hint": "An action film with a tough cop."
+      },
+      {
+        "word": "ironman",
+        "hint": "A superhero film about a genius inventor."
+      },
+      {
+        "word": "goonies",
+        "hint": "An adventure about kids and treasure."
+      },
+      {
+        "word": "arrival",
+        "hint": "A sci-fi film about alien language."
+      },
+      {
+        "word": "gravity",
+        "hint": "A film about astronauts stranded in space."
+      },
+      {
+        "word": "titanic",
+        "hint": "A tragic love story on a ship."
+      },
+      {
+        "word": "aladdin",
+        "hint": "A Disney film with a magic lamp."
+      },
+      {
+        "word": "yojimbo",
+        "hint": "A samurai film about a ronin."
+      },
+      {
+        "word": "martian",
+        "hint": "A film about surviving on Mars."
+      },
+      {
+        "word": "pirates",
+        "hint": "A film series about Caribbean pirates."
+      },
+      {
+        "word": "jumanji",
+        "hint": "A film about a magical board game."
+      },
+      {
+        "word": "stalker",
+        "hint": "A Russian film about a mysterious zone."
+      },
+      {
+        "word": "solaris",
+        "hint": "A sci-fi film about a sentient planet."
+      },
+      {
+        "word": "starwars",
+        "hint": "A sci-fi saga with lightsabers."
+      },
+      {
+        "word": "lionking",
+        "hint": "A Disney film about a young lion prince."
+      },
+      {
+        "word": "parasite",
+        "hint": "A Korean film about class divide."
+      },
+      {
+        "word": "superman",
+        "hint": "A superhero film about a man of steel."
+      },
+      {
+        "word": "toystory",
+        "hint": "An animated film about living toys."
+      },
+      {
+        "word": "whiplash",
+        "hint": "A drama about a drummer's ambition."
+      },
+      {
+        "word": "twilight",
+        "hint": "A romance film with vampires."
+      },
+      {
+        "word": "rashomon",
+        "hint": "A Japanese film about conflicting stories."
+      },
+      {
+        "word": "westside",
+        "hint": "A musical about rival gangs."
+      },
+      {
+        "word": "downfall",
+        "hint": "A German film about Hitler's final days."
+      },
+      {
+        "word": "gonegirl",
+        "hint": "A thriller about a missing wife."
+      },
+      {
+        "word": "district",
+        "hint": "A dystopian film about a futuristic city."
+      },
+      {
+        "word": "lalaland",
+        "hint": "A musical about dreams in Hollywood."
+      },
+      {
+        "word": "godzilla",
+        "hint": "A film about a giant monster."
+      },
+      {
+        "word": "zootopia",
+        "hint": "An animated film about a bunny cop."
+      },
+      {
+        "word": "scarface",
+        "hint": "A crime film about a drug lord."
+      },
+      {
+        "word": "watchmen",
+        "hint": "A superhero film with a dark twist."
+      },
+      {
+        "word": "deadpool",
+        "hint": "A superhero comedy with a foul-mouthed hero."
+      },
+      {
+        "word": "avengers",
+        "hint": "A superhero team-up movie."
+      },
+      {
+        "word": "menblack",
+        "hint": "A sci-fi comedy about secret agents."
+      },
+      {
+        "word": "predator",
+        "hint": "A sci-fi action film about an alien hunter."
+      },
+      {
+        "word": "killbill",
+        "hint": "A revenge film with a deadly bride."
+      },
+      {
+        "word": "exorcist",
+        "hint": "A horror film about demonic possession."
+      },
+      {
+        "word": "departed",
+        "hint": "A crime thriller about undercover cops."
+      },
+      {
+        "word": "kingkong",
+        "hint": "A film about a giant ape."
+      },
+      {
+        "word": "prisoners",
+        "hint": "A thriller about abducted children."
+      },
+      {
+        "word": "nocturnal",
+        "hint": "A neo-noir film about a detective."
+      },
+      {
+        "word": "reservoir",
+        "hint": "A heist film with colorful codenames."
+      },
+      {
+        "word": "labyrinth",
+        "hint": "A fantasy film with a goblin king."
+      },
+      {
+        "word": "gladiator",
+        "hint": "A historical drama about a Roman warrior."
+      },
+      {
+        "word": "labyrinth",
+        "hint": "A dark fantasy set during war."
+      },
+      {
+        "word": "spiderman",
+        "hint": "A superhero film about a web-slinger."
+      }
+    ],
+    "5": [
+      {
+        "word": "inception",
+        "hint": "A film about dream invasion."
+      },
+      {
+        "word": "kagemusha",
+        "hint": "A Japanese film about a shadow warrior."
+      },
+      {
+        "word": "exmachina",
+        "hint": "A sci-fi film about artificial intelligence."
+      },
+      {
+        "word": "knivesout",
+        "hint": "A modern whodunit mystery."
+      },
+      {
+        "word": "fightclub",
+        "hint": "A film about an underground fight ring."
+      },
+      {
+        "word": "shawshank",
+        "hint": "A film about hope in prison."
+      },
+      {
+        "word": "midsommar",
+        "hint": "A horror film set in a Swedish cult."
+      },
+      {
+        "word": "greenmile",
+        "hint": "A drama about a prison with miracles."
+      },
+      {
+        "word": "godfather",
+        "hint": "A classic mafia family saga."
+      },
+      {
+        "word": "moonlight",
+        "hint": "A drama about identity and growth."
+      },
+      {
+        "word": "cityofgod",
+        "hint": "A Brazilian film about slum life."
+      },
+      {
+        "word": "metropolis",
+        "hint": "A silent sci-fi film from Germany."
+      },
+      {
+        "word": "goodfellas",
+        "hint": "A mob film about life in the mafia."
+      },
+      {
+        "word": "darkknight",
+        "hint": "A Batman film with a chaotic villain."
+      },
+      {
+        "word": "braveheart",
+        "hint": "A film about a Scottish rebel."
+      },
+      {
+        "word": "underworld",
+        "hint": "A film about vampires and werewolves."
+      },
+      {
+        "word": "apocalypto",
+        "hint": "A film about a Mayan warrior."
+      },
+      {
+        "word": "terminator",
+        "hint": "A sci-fi film about a killer robot."
+      },
+      {
+        "word": "hereditary",
+        "hint": "A horror film about a cursed family."
+      },
+      {
+        "word": "bladerunner",
+        "hint": "A sci-fi noir about replicants."
+      },
+      {
+        "word": "forrestgump",
+        "hint": "A drama about a man's extraordinary life."
+      },
+      {
+        "word": "equilibrium",
+        "hint": "A dystopian film about suppressed emotions."
+      },
+      {
+        "word": "ratatouille",
+        "hint": "An animated film about a cooking rat."
+      },
+      {
+        "word": "moulinrouge",
+        "hint": "A musical about a Parisian nightclub."
+      },
+      {
+        "word": "incredibles",
+        "hint": "An animated film about a superhero family."
+      },
+      {
+        "word": "monstersinc",
+        "hint": "An animated film about scaring kids."
+      },
+      {
+        "word": "harrypotter",
+        "hint": "A fantasy series about a young wizard."
+      },
+      {
+        "word": "findingnemo",
+        "hint": "An animated film about a lost clownfish."
+      },
+      {
+        "word": "inglourious",
+        "hint": "A war film about a Nazi-hunting squad."
+      },
+      {
+        "word": "kungfupanda",
+        "hint": "An animated film about a martial arts panda."
+      },
+      {
+        "word": "constantine",
+        "hint": "A film about a demon hunter."
+      },
+      {
+        "word": "intouchables",
+        "hint": "A French film about an unlikely friendship."
+      },
+      {
+        "word": "interstellar",
+        "hint": "A sci-fi film about space exploration."
+      },
+      {
+        "word": "jurassicpark",
+        "hint": "A film about a dinosaur theme park."
+      },
+      {
+        "word": "spiritedaway",
+        "hint": "A Japanese animated fantasy film."
+      },
+      {
+        "word": "vforvendetta",
+        "hint": "A dystopian film about a masked rebel."
+      },
+      {
+        "word": "annihilation",
+        "hint": "A sci-fi film about a mysterious zone."
+      },
+      {
+        "word": "ghostbusters",
+        "hint": "A comedy about catching ghosts."
+      },
+      {
+        "word": "childrenofmen",
+        "hint": "A dystopian film about infertility."
+      },
+      {
+        "word": "princessbride",
+        "hint": "A fairy tale with pirates and romance."
+      },
+      {
+        "word": "livesofothers",
+        "hint": "A German film about surveillance."
+      },
+      {
+        "word": "trainspotting",
+        "hint": "A film about addiction in Scotland."
+      },
+      {
+        "word": "schindlerslist",
+        "hint": "A film about saving lives during WWII."
+      },
+      {
+        "word": "crouchingtiger",
+        "hint": "A martial arts film with a hidden dragon."
+      },
+      {
+        "word": "lordoftherings",
+        "hint": "A fantasy trilogy about a powerful ring."
+      },
+      {
+        "word": "ghostintheshell",
+        "hint": "An animated film about a cyborg."
+      },
+      {
+        "word": "backtothefuture",
+        "hint": "A time-travel adventure with a DeLorean."
+      },
+      {
+        "word": "savingprivateryan",
+        "hint": "A war film about a rescue mission."
+      }
+    ]
+  }
+}

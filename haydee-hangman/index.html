@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#6a0dad">
+    <title>Haydee Hangman</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" sizes="96x96" href="resources/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" href="resources/icons/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Hangman">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Toast Notification -->
+        <div id="app-toast"></div>
+
+        <!-- Navigation -->
+        <nav class="app-nav">
+            <button id="nav-main-menu-btn" class="nav-btn active">Main Menu</button>
+            <button id="nav-settings-btn" class="nav-btn">Settings</button>
+            <button id="nav-stats-btn" class="nav-btn">Stats</button>
+            <button id="nav-leaderboard-btn" class="nav-btn">Leaderboard</button>
+        </nav>
+
+        <!-- Main Menu Section -->
+        <section id="main-menu-section" class="app-section active-section">
+            <h1>Hangman</h1>
+            <button id="start-game-btn">Start Game</button>
+            <button id="settings-btn">Settings</button>
+            <button id="stats-btn">Stats</button>
+            <button id="leaderboard-btn">Leaderboard</button>
+        </section>
+
+        <!-- Gameplay Section -->
+        <section id="gameplay-section" class="app-section">
+            <div class="game-info">
+                <span id="game-info-score">Score: 0</span>
+                <span id="game-info-mistakes">Mistakes: 0/6</span>
+                <span id="timer-display"></span>
+            </div>
+            <div id="category-display">Category: Unknown</div>
+            <img id="hangman-image" src="resources/images/butterfly/0.png" alt="Hangman Image">
+            <div id="guessed-word-display"></div>
+            <button id="hint-btn">Hint</button>
+            <div id="keyboard"></div>
+        </section>
+
+        <!-- Settings Section -->
+        <section id="settings-section" class="app-section">
+            <h2>Settings</h2>
+            <label for="player-initials">Player Initials:</label>
+            <input id="player-initials" type="text" maxlength="3">
+            <label for="theme-selector">Theme:</label>
+            <div id="theme-name-display"></div>
+            <div id="theme-selector" class="theme-selector"></div>
+            <label for="image-set">Image Set:</label>
+            <select id="image-set">
+                <option value="butterfly">Butterfly</option>
+                <option value="robot">Robot</option>
+                <option value="tree">Tree</option>
+            </select>
+            <label for="sound-pack">Sound Pack:</label>
+            <select id="sound-pack">
+                <option value="classic">Classic</option>
+                <option value="modern">Modern</option>
+                <option value="retro">Retro</option>
+            </select>
+            <label for="volume">Volume:</label>
+            <select id="volume">
+                <option value="0">Off</option>
+                <option value="1">Low</option>
+                <option value="2">Medium</option>
+                <option value="3">High</option>
+            </select>
+            <label for="difficulty">Difficulty:</label>
+            <select id="difficulty">
+                <option value="1">Easy</option>
+                <option value="2">Medium-Easy</option>
+                <option value="3">Normal</option>
+                <option value="4">Medium-Hard</option>
+                <option value="5">Hard</option>
+            </select>
+            <label for="game-mode">Game Mode:</label>
+            <select id="game-mode">
+                <option value="casual">Casual</option>
+                <option value="timed">Timed</option>
+                <option value="rush">Rush</option>
+            </select>
+            <label>Categories:</label>
+            <div id="category-list"></div>
+
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats-section" class="app-section">
+            <h2>Stats</h2>
+            <div id="stats-grid"></div>
+            <h3>Achievements</h3>
+            <ul id="stats-achievements-list"></ul>
+            <button id="reset-stats-btn">Reset Stats</button>
+        </section>
+
+        <!-- Leaderboard Section -->
+        <section id="leaderboard-section" class="app-section">
+            <h2>Leaderboard</h2>
+            <select id="leaderboard-filter">
+                <option value="all">All</option>
+                <option value="casual">Casual</option>
+                <option value="timed">Timed</option>
+                <option value="rush">Rush</option>
+            </select>
+            <ul id="leaderboard-list"></ul>
+        </section>
+
+        <!-- Modal Overlay -->
+        <div id="modal-overlay">
+            <div class="modal-content">
+                <h2 id="modal-title"></h2>
+                <p id="modal-message"></p>
+                <p id="modal-details"></p>
+                <button id="modal-play-again-btn">Play Again</button>
+                <button id="modal-settings-btn">Settings</button>
+                <button id="modal-quit-btn">Quit</button>
+            </div>
+        </div>
+
+        <!-- Achievement Modal -->
+        <div id="achievement-modal">
+            <div class="modal-content">
+                <h2 id="achievement-modal-title"></h2>
+                <p id="achievement-modal-message"></p>
+                <button id="achievement-modal-close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
